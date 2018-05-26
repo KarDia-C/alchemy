@@ -8,7 +8,7 @@ var selectedTab
 
 function selectTab(index) {
 	var $tabs = $(".tab")
-	if (selectedTab != undefined) $tabs[selectTab].style.display = "none"
+	if (selectedTab != undefined) $tabs[selectedTab].style.display = "none"
 	$tabs[index].style.display = "block"
-	selectTab = index
+	selectedTab = index
 }

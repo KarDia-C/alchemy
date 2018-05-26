@@ -42,9 +42,9 @@ function clickMaterial(event) {
 	}
 }
 
-function longClickMaterial(event) {
-	var count = event.currentTarget.count
+function longClick(event) {
 	event.preventDefault()
+	showInfo(event, this.obj.name, this.obj.getDetailDesc())
 }
 
 // function setMaterial(container, itemObj, updateSim = true) {
@@ -112,7 +112,6 @@ $(function(){
 	for (var i = 0; i < $items.length; ++i) {
 		$items[i].count = i
 		$items[i].onclick = clickMaterial
-		$items[i].oncontextmenu = longClickMaterial
 	}
 })
 

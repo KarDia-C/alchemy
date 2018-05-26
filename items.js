@@ -7,9 +7,10 @@ function compareRarity(a, b) {
 	return a.type - b.type
 }
 function getImgNode() {
-	var foo = document.createElement("img")
-	foo.src = "/img/item/item_" + this.type + "_L.png"
+	var foo = document.createElement("span")
+	foo.style.backgroundImage = "url(/img/item/item_" + this.type + "_L.png)"
 	foo.className = "item"
+	foo.oncontextmenu = longClick
 	foo.obj = this
 	return foo
 }
@@ -40,6 +41,13 @@ $.get("materials.json", function(response,status,xhr){
 		*/
 		materials[mi].getImgNode = getImgNode
 		materials[mi].getHighlightImgNode = getHighlightImgNode
+		materials[mi].getDetailDesc = function() {
+			var foo = ""
+			for (var i = 0; i < ingredientNames.length; ++i) {
+				if (this.ingredients[i] > 0) foo += ingredientNames[i] + "x" + this.ingredients[i] + "\n"
+			}
+			return foo.slice(0, -1)
+		}
 	}
 	check()
 })
@@ -48,6 +56,21 @@ $.get("equips.json", function(response){
 	equips.sort(compareRarity)
 	for (var mi in equips) {
 		equips[mi].getImgNode = getImgNode
+		equips[mi].getDetailDesc = function() {
+			var foo = ""
+			for (var i = 0; i < attributeNames.length; ++i) {
+				if (this.attribs[i] instanceof Array) {
+					if (this.attribs[i][0] > 0) {
+						foo += attributeNames[i].replace("{$v1}", this.attribs[i][0]).replace("{$v2}", this.attribs[i][1]) + "\n"
+					}
+				} else {
+					if (this.attribs[i] > 0) {
+						foo += attributeNames[i].replace("{$v}", this.attribs[i]) + "\n"
+					}
+				}
+			}
+			return foo.slice(0, -1)
+		}
 	}
 	check()
 })

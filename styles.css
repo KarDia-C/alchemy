@@ -25,9 +25,9 @@ body{text-align:center;margin:0px;}
 .hr{background:url(hr.png);background-size:100%;width:100%;height:2.64vw;} /* 2.64 = 19 / 720 * 100 */
 
 /* info */
-.info{border:15px solid transparent;border-image:url(infobg.png) 50;border-image-width:50px;background:#FFF4D4;display:inline-block;min-width:120px;}
-.name{color:#A36840;}
-.detail{color:#B75317;}
+.info{border:2vw solid transparent;border-image-source: url(infobg.png);border-image-slice: 35 25;border-image-width: 7vw 5vw;border-image-outset: 1vw;border-image-repeat: repeat;background:#FFF4D4;display:inline-block;min-width:20vw;position:absolute;display:none;z-index:1;}
+.name{color:#A36840;font-size:4vw;}
+.detail{color:#B75317;font-size:3vw;}
 
 /* item */
 .item{height:20.64vw;width:20vw;display:inline-block;background-size:100%;} /* 20.32 = 20 * 127 / 125 */
