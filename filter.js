@@ -42,7 +42,7 @@ function filter(materials) {
 			if (a.rarity != b.rarity) return b.rarity - a.rarity
 			return a.type - b.type
 		}
-		if (a.value == b.value) return b.value - a.value
+		if (a.value != b.value) return b.value - a.value
 		return a.type - b.type
 	})
 	return foo
