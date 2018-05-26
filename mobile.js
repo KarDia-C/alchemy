@@ -117,13 +117,19 @@ $(function(){
 
 function uiInit() {
 	setResult()
-	var sc = $("#sc")[0]
-	for (var i = 0; i < materials.length; ++i) {
-		var node = materials[i].getImgNode()
+	filterChanged()
+}
+
+function filterChanged() {
+	var sl = $("#sl")[0]
+	sl.innerHTML = ""
+	var filtered = filter(materials)
+	for (var i = 0; i < filtered.length; ++i) {
+		var node = filtered[i].getImgNode()
 		node.onclick = function() {
 			setMaterial(-1, this.obj)
 		}
-		sc.appendChild(node)
-		sc.appendChild(document.createTextNode(" "))
+		sl.appendChild(node)
+		sl.appendChild(document.createTextNode(" "))
 	}
 }

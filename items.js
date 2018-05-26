@@ -12,6 +12,12 @@ function getImgNode() {
 	foo.className = "item"
 	foo.oncontextmenu = longClick
 	foo.obj = this
+	if (this.value > 0) { // undefined > 0 = false
+		var bar = document.createElement("span")
+		bar.className = "sortv"
+		bar.innerHTML = this.value
+		foo.appendChild(bar)
+	}
 	return foo
 }
 function getHighlightImgNode() {
@@ -87,12 +93,9 @@ function getItem(key) {
 	return undefined
 }
 
-var uiInit
-
 function check() {
 	if (ingredientNames != undefined && attributeNames != undefined && materials != undefined && equips != undefined) {
-		if (uiInit == undefined) $(function(){uiInit()})
-		else uiInit()
+		$(function(){uiInit()})
 	}
 }
 

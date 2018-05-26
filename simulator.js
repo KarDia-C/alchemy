@@ -5,9 +5,10 @@ var rarityWeights = [0, 1, 2, 3, 4, 5]
 
 function simulate(items) {
 	var input = arguments[0] instanceof Array ? items : arguments
-	var ingredients = []
-	for (var i = 0; i < ingredientNames.length; ++i) ingredients[i] = 0
-	var material = []
+	var ingredients = new Array(14)
+	ingredients.fill(0)
+	var material = new Array(14)
+	material.fill(0)
 	var sum = 0
 	for (i = 0; i < input.length; ++i) {
 		input[i] = getItem(input[i])
@@ -16,8 +17,7 @@ function simulate(items) {
 				ingredients[j] += input[i].ingredients[j]
 				sum += input[i].ingredients[j]
 			}
-			if (material[input[i]["type"]] == undefined) material[input[i]["type"]] = 1
-			else ++material[input[i]["type"]]
+			++material[input[i]["type"]]
 		}
 	}
 	var result = equips.slice(0)
@@ -39,10 +39,10 @@ function simulate(items) {
 		result.hour = 5
 	}
 	sum = [0, 0, 0, 0, 0, 0]
-	for (i = 0; i < result.length; ++i) {
+	for (var i = 0; i < result.length; ++i) {
 		result[i]["chance"] = result[i]["weight"] // 复制一份，避免修改原值
 		for (j in result[i]["core"]) {
-			if (result[i]["core"][j] > 0 && !(result[i]["core"][j] <= material[j])) { // number <= undefined = false
+			if (result[i]["core"][j] > material[j]) {
 				result[i]["chance"] = 0
 				break
 			}
@@ -56,7 +56,7 @@ function simulate(items) {
 			}
 		}
 		for (j = 0; j < result[i]["c+i"].length; ++j) {
-			if (result[i]["c+i"][j] > 0 && (ingredients[j] == undefined || result[i]["c+i"][j] > ingredients[j])) {
+			if (result[i]["c+i"][j] > ingredients[j]) {
 				result[i]["chance"] = 0
 				break
 			}
