@@ -61,11 +61,14 @@ $.get("equips.json", function(response){
 			for (var i = 0; i < attributeNames.length; ++i) {
 				if (this.attribs[i] instanceof Array) {
 					if (this.attribs[i][0] > 0) {
-						foo += attributeNames[i].replace("{$v1}", this.attribs[i][0]).replace("{$v2}", this.attribs[i][1]) + "\n"
+						var v1 = getFloatStr(this.attribs[i][0])
+						var v2 = getFloatStr(this.attribs[i][1])
+						if (attributeNames[i].indexOf("眩晕") != -1 || attributeNames[i].indexOf("冰冻") != -1) v2 = "2" // mmp
+						foo += attributeNames[i].replace("{$v1}", v1).replace("{$v2}", v2) + "\n"
 					}
 				} else {
 					if (this.attribs[i] > 0) {
-						foo += attributeNames[i].replace("{$v}", this.attribs[i]) + "\n"
+						foo += attributeNames[i].replace("{$v}", getFloatStr(this.attribs[i])) + "\n"
 					}
 				}
 			}
@@ -91,4 +94,11 @@ function check() {
 		if (uiInit == undefined) $(function(){uiInit()})
 		else uiInit()
 	}
+}
+
+function getFloatStr(value) {
+	var min = Math.round(value * .8)
+	var max = Math.round(value * 1.2)
+	if (min == max) return min
+	return min + "~" + max
 }
