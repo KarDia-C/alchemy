@@ -50,20 +50,20 @@ function longClickMaterial(event) {
 // function setMaterial(container, itemObj, updateSim = true) {
 function setMaterial(container, itemObj, updateSim) {
 	if (updateSim == undefined) updateSim = true
-	if (container == -1) { // ×Ô¶¯Ìí¼Ó
+	if (container == -1) { // è‡ªåŠ¨æ·»åŠ 
 		for (var i = 0; i < 4; ++i) if (selected[i] == undefined) {
 			container = i
 			break
 		}
-		if (container == -1) return // Ã»ÓĞ¿ÕÎ»
+		if (container == -1) return // æ²¡æœ‰ç©ºä½
 	}
 	var containerDom = $(".select")[container]
 	if (itemObj == selected[container]) return
-	if (selected[container] != undefined) { // Çå³ıÔ­ÎïÆ·
+	if (selected[container] != undefined) { // æ¸…é™¤åŸç‰©å“
 		containerDom.removeChild(containerDom.children[0])
 		containerDom.children[0].style.display = ""
 	}
-	if (itemObj != undefined) { // Ìí¼ÓĞÂÎïÆ·
+	if (itemObj != undefined) { // æ·»åŠ æ–°ç‰©å“
 		containerDom.children[0].style.display = "none"
 		containerDom.insertBefore(itemObj.getImgNode(), containerDom.children[0])
 	}
@@ -77,7 +77,7 @@ function setResult(result) {
 	table.innerHTML = ""
 	for (var i = 0; i < result.length; ++i) table.appendChild(getResultTRNode(result[i]))
 	var state = $("#state")[0]
-	var statestr = "Ê±¼ä£º" + result.hour + "h<br/>½ğ±Ò£º<img src=\"gold.png\" id=\"gold\" />" + result.gold + "<hr/>"
+	var statestr = "æ—¶é—´ï¼š" + result.hour + "h<br/>é‡‘å¸ï¼š<img src=\"gold.png\" id=\"gold\" />" + result.gold + "<hr/>"
 	for (var i = 0; i < ingredientNames.length; ++i) if (result.ingredients[i] != 0) {
 		statestr += ingredientNames[i] + "x" + result.ingredients[i] + "<br/>"
 	}
