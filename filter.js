@@ -15,7 +15,7 @@ $(function(){
 		else filter.onclick = function() {
 			if (this.classList.contains("f1")) { // 已选中，取消选中
 				this.classList.remove("f1")
-				filterRules.splice(filterRules.indexOf(this.attributes.ftype.value), 1)
+				filterRules.splice(filterRules.indexOf(parseInt(this.attributes.ftype.value), 1), 1)
 			} else {
 				this.classList.add("f1")
 				filterRules.push(parseInt(this.attributes.ftype.value))
