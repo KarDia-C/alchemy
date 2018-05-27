@@ -1,18 +1,18 @@
 "use strict"
 
-var ingredientNames, attributeNames
-var materials, equips
+var ingredientNames, attributeNames, posNames
+var materials, equips, templets
 function compareRarity(a, b) {
 	if (a.rarity != b.rarity) return b.rarity - a.rarity
 	return a.type - b.type
 }
-function getImgNode() {
+function getImgNode(value) {
 	var foo = document.createElement("span")
 	foo.style.backgroundImage = "url(/img/item/item_" + this.type + "_L.png)"
 	foo.className = "item"
 	foo.oncontextmenu = longClick
 	foo.obj = this
-	if (this.value > 0) { // undefined > 0 = false
+	if (value > 0) { // undefined > 0 = false
 		var bar = document.createElement("span")
 		bar.className = "sortv"
 		bar.innerHTML = this.value
@@ -30,6 +30,7 @@ function getHighlightImgNode() {
 $.get("names.json", function(response){
 	ingredientNames = response.ingredients
 	attributeNames = response.attribs
+	posNames = response.position
 	check()
 })
 $.get("materials.json", function(response,status,xhr){
@@ -83,6 +84,10 @@ $.get("equips.json", function(response){
 	}
 	check()
 })
+$.get("templets.json", function(response){
+	templets = response
+	check()
+})
 
 function getItem(key) {
 	if (typeof key == "object") return key
@@ -94,7 +99,7 @@ function getItem(key) {
 }
 
 function check() {
-	if (ingredientNames != undefined && attributeNames != undefined && materials != undefined && equips != undefined) {
+	if (ingredientNames != undefined && materials != undefined && equips != undefined && templets != undefined) {
 		$(function(){uiInit()})
 	}
 }

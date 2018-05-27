@@ -118,6 +118,69 @@ $(function(){
 function uiInit() {
 	setResult()
 	filterChanged()
+
+	// 生成俩表格
+	var table = document.createElement("table")
+	var thead = table.createTHead()
+	var tbody = table.createTBody()
+	table.border = "1"
+	table.cellSpacing = "0"
+	$("#materials")[0].appendChild(table)
+	var tr = thead.insertRow()
+	tr.innerHTML = "<th style='width:15%;'></th>"
+	for (var i = 0; i < ingredientNames.length; i += 2) tr.innerHTML += "<th style='width:10%;'>" + ingredientNames[i] + ((i + 1) >= ingredientNames.length ? "" : "<hr>" + ingredientNames[i + 1]) + "</th>"
+	tr.innerHTML += "<th style='width:15%;'>来源</th>"
+	for (i = 0; i < materials.length; ++i) {
+		tr = tbody.insertRow()
+		var img = tr.insertCell()
+		img.appendChild(materials[i].getImgNode())
+		img.innerHTML += "<br>" + materials[i].name
+		if (materials[i].name.length > 6) img.style.fontSize = "3vw"
+		for (var j = 0; j < ingredientNames.length; j += 2) tr.innerHTML += "<td>" + materials[i].ingredients[j] + ((j + 1) >= ingredientNames.length ? "" : "<hr>" + materials[i].ingredients[j + 1]) + "</td>"
+		tr.innerHTML += "<td><div class='source'>" + materials[i].sources.replace(/\n/g, "<br>") + "</div></td>"
+	}
+
+	table = document.createElement("table")
+	thead = table.createTHead()
+	tbody = table.createTBody()
+	table.border = "1"
+	table.cellSpacing = "0"
+	$("#equips")[0].appendChild(table)
+	thead.innerHTML = "<tr><th style='width:15%;'></th><th style='width:42%;'>属性</th><th style='width:10%;'>部位</th><th style='width:33%;'>推荐公式</th></tr>"
+	for (i = 0; i < equips.length; ++i) {
+		tr = tbody.insertRow()
+		img = tr.insertCell()
+		img.appendChild(equips[i].getImgNode())
+		img.innerHTML += "<br>" + equips[i].name
+		if (equips[i].name.length > 6) img.style.fontSize = "3vw"
+		tr.innerHTML += "<td>" + equips[i].getDetailDesc().replace(/\n/g, "<br>") + "</td><td>" + posNames[equips[i].position] + "</td>"
+		var recommend = document.createElement("td")
+		tr.appendChild(recommend)
+		if (templets[equips[i].type] != undefined) {
+			var tmp = templets[equips[i].type]
+			var p = document.createElement("div")
+			p.className = "recommend"
+			recommend.appendChild(p)
+			for (j = 0; j < tmp.length; ++j) {
+				table = document.createElement("table")
+				table.cellPadding = "0"
+				table.createTBody()
+				tr = [table.insertRow(), table.insertRow()]
+				for (var k = 0; k < 4; ++k) {
+					var foo = tr[k >> 1].insertCell()
+					if (tmp[j][k] != undefined) foo.appendChild(getItem(tmp[j][k]).getImgNode())
+				}
+				var result = simulate(tmp[j])
+				tr[0].insertCell().innerHTML = "<img class='gold' src='gold.png' />" + result.gold
+				for (k = 0; k < result.length; ++k) if (result[k].type == equips[i].type) {
+					tr[1].insertCell().innerHTML = result[k].prstr
+					break
+				}
+				p.appendChild(table)
+				if (j != tmp.length - 1) p.appendChild(document.createElement("hr"))
+			}
+		}
+	}
 }
 
 function filterChanged() {
@@ -125,7 +188,7 @@ function filterChanged() {
 	sl.innerHTML = ""
 	var filtered = filter(materials)
 	for (var i = 0; i < filtered.length; ++i) {
-		var node = filtered[i].getImgNode()
+		var node = filtered[i].getImgNode(filtered[i].value)
 		node.onclick = function() {
 			setMaterial(-1, this.obj)
 		}
