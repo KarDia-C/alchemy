@@ -153,7 +153,7 @@ function uiInit() {
 		img.appendChild(equips[i].getImgNode())
 		img.innerHTML += "<br>" + equips[i].name
 		if (equips[i].name.length > 6) img.style.fontSize = "3vw"
-		tr.innerHTML += "<td>" + equips[i].getDetailDesc().replace(/\n/g, "<br>") + "</td><td>" + posNames[equips[i].position] + "</td>"
+		tr.innerHTML += "<td>" + equips[i].getDetailDesc().replace(/\n/g, "<br>") + "</td><td>" + posNames[equips[i].position - 1] + "</td>"
 		var recommend = document.createElement("td")
 		tr.appendChild(recommend)
 		if (templets[equips[i].type] != undefined) {
