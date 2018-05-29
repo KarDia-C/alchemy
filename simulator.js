@@ -52,7 +52,7 @@ function simulate(items) {
 			for (j in result[i]["core"]) {
 				var item = getItem(j)
 				for (var k = 0; k < item["ingredients"].length; ++k)
-					result[i]["c+i"][k] += item["ingredients"][k]
+					result[i]["c+i"][k] += item["ingredients"][k] * result[i]["core"][j]
 			}
 		}
 		for (j = 0; j < result[i]["c+i"].length; ++j) {
