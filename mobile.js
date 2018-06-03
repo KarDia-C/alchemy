@@ -42,9 +42,22 @@ function clickMaterial(event) {
 	}
 }
 
+var showingInfo = false
+
 function longClick(event) {
 	event.preventDefault()
 	showInfo(event, this.obj.name, this.obj.getDetailDesc())
+	showingInfo = true
+}
+
+function moveIn(event) {
+	if (showingInfo) {
+		event = event.touches[0]
+		var obj = document.elementFromPoint(event.clientX, event.clientY)
+		if (obj != null) obj = obj.obj
+		if (obj != undefined) showInfo(event, obj.name, obj.getDetailDesc())
+		else hideInfo()
+	}
 }
 
 // function setMaterial(container, itemObj, updateSim = true) {
@@ -112,6 +125,10 @@ $(function(){
 	for (var i = 0; i < $items.length; ++i) {
 		$items[i].count = i
 		$items[i].onclick = clickMaterial
+	}
+	document.body.ontouchstart = function() {
+		hideInfo()
+		showingInfo = false
 	}
 })
 

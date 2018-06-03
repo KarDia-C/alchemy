@@ -11,7 +11,6 @@ $(function(){
 		infodiv.className = "info"
 		main.insertBefore(infodiv, main.children[0])
 	}
-	document.body.ontouchstart = hideInfo
 })
 
 // Example: showInfo(event, "阿芙杖", ["攻击+19", "暴击+7%", "吸血3%"])

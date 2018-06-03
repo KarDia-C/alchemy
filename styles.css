@@ -1,4 +1,5 @@
 body{text-align:center;margin:0px;}
+#main{overflow:hidden;position:relative;}
 .unselectable{-webkit-user-select:none;-moz-user-select:none;-o-user-select:none;user-select:none;}
 .select img{width:20%;}
 #toggle{width:5vw;position:absolute;right:0px;top:53.8vw;}

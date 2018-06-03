@@ -11,6 +11,7 @@ function getImgNode(value) {
 	foo.style.backgroundImage = "url(/img/item/item_" + this.type + "_L.png)"
 	foo.className = "item"
 	foo.oncontextmenu = longClick
+	foo.ontouchmove = moveIn
 	foo.obj = this
 	if (value > 0) { // undefined > 0 = false
 		var bar = document.createElement("span")
