@@ -142,11 +142,15 @@ function uiInit() {
 	var tbody = table.createTBody()
 	table.border = "1"
 	table.cellSpacing = "0"
-	$("#materials")[0].appendChild(table)
 	var tr = thead.insertRow()
 	tr.innerHTML = "<th style='width:15%;'></th>"
 	for (var i = 0; i < ingredientNames.length; i += 2) tr.innerHTML += "<th style='width:10%;'>" + ingredientNames[i] + ((i + 1) >= ingredientNames.length ? "" : "<hr>" + ingredientNames[i + 1]) + "</th>"
 	tr.innerHTML += "<th style='width:15%;'>来源</th>"
+	var foo = table.cloneNode()
+	foo.innerHTML = table.innerHTML
+	foo.className = "forzen"
+	$("#materials")[0].appendChild(foo)
+	$("#materials")[0].appendChild(table)
 	for (i = 0; i < materials.length; ++i) {
 		tr = tbody.insertRow()
 		var img = tr.insertCell()
@@ -162,8 +166,12 @@ function uiInit() {
 	tbody = table.createTBody()
 	table.border = "1"
 	table.cellSpacing = "0"
-	$("#equips")[0].appendChild(table)
 	thead.innerHTML = "<tr><th style='width:15%;'></th><th style='width:42%;'>属性</th><th style='width:10%;'>部位</th><th style='width:33%;'>推荐公式</th></tr>"
+	foo = table.cloneNode()
+	foo.innerHTML = table.innerHTML
+	foo.className = "forzen"
+	$("#equips")[0].appendChild(foo)
+	$("#equips")[0].appendChild(table)
 	for (i = 0; i < equips.length; ++i) {
 		tr = tbody.insertRow()
 		img = tr.insertCell()

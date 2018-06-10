@@ -13,6 +13,7 @@ body{text-align:center;margin:0px;}
 .tab{width:21.8vw;height:8.6vw;background-size:100%;position:absolute;top:30.28vw;}
 .tabd{display:none;height:calc(100vh - 61.52vw);min-height:94.86vw;background:#907E4E;overflow-y:auto;}
 .tabd>table{color:#361300;font-size:4vw;table-layout:fixed;width:100%;}
+.forzen{position:absolute;background:#907E4E;}
 #materials hr{border:1px solid #361300;margin:0px;}
 .tabd>table .item{width:14vw;height:14.4vw;}
 .source, .recommend{max-height:26vw;overflow-y:auto;font-size:3vw;}
