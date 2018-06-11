@@ -142,6 +142,7 @@ function uiInit() {
 	var tbody = table.createTBody()
 	table.border = "1"
 	table.cellSpacing = "0"
+	table.className = "infotable"
 	var tr = thead.insertRow()
 	tr.innerHTML = "<th style='width:15%;'></th>"
 	for (var i = 0; i < ingredientNames.length; i += 2) tr.innerHTML += "<th style='width:10%;'>" + ingredientNames[i] + ((i + 1) >= ingredientNames.length ? "" : "<hr>" + ingredientNames[i + 1]) + "</th>"
@@ -161,19 +162,53 @@ function uiInit() {
 		tr.innerHTML += "<td><div class='source'>" + materials[i].sources.replace(/\n/g, "<br>") + "</div></td>"
 	}
 
+	var filter = document.createElement("div")
+	filter.id = "equipFilter"
+	$("#equips")[0].appendChild(filter)
+	var line = document.createElement("div")
+	line.className = "filterLine"
+	filter.appendChild(line)
+	var lined = document.createElement("div")
+	line.appendChild(lined)
+	for (i = 0; i < attributeNames.length; ++i) {
+		var btn = document.createElement("button")
+		btn.innerHTML = attributeNames[i].slice(0, attributeNames[i].search(/[{+-]/))
+		btn.className = "filter"
+		btn.ftype = 0
+		btn.onclick = equipFilter
+		lined.appendChild(btn)
+	}
+	line = document.createElement("div")
+	line.className = "filterLine"
+	filter.appendChild(line)
+	lined = document.createElement("div")
+	line.appendChild(lined)
+	for (i = 0; i < posNames.length; ++i) {
+		btn = document.createElement("button")
+		btn.innerHTML = posNames[i]
+		btn.className = "filter"
+		btn.ftype = 1
+		btn.onclick = equipFilter
+		lined.appendChild(btn)
+	}
+	var tablediv = document.createElement("div")
+	tablediv.id = "equipTable"
+	$("#equips")[0].appendChild(tablediv)
 	table = document.createElement("table")
 	thead = table.createTHead()
 	tbody = table.createTBody()
 	table.border = "1"
 	table.cellSpacing = "0"
+	table.className = "infotable"
 	thead.innerHTML = "<tr><th style='width:15%;'></th><th style='width:42%;'>属性</th><th style='width:10%;'>部位</th><th style='width:33%;'>推荐公式</th></tr>"
 	foo = table.cloneNode()
 	foo.innerHTML = table.innerHTML
-	foo.className = "forzen"
-	$("#equips")[0].appendChild(foo)
-	$("#equips")[0].appendChild(table)
+	foo.classList.add("forzen")
+	tablediv.appendChild(foo)
+	tablediv.appendChild(table)
 	for (i = 0; i < equips.length; ++i) {
 		tr = tbody.insertRow()
+		tr.equip = equips[i]
 		img = tr.insertCell()
 		img.appendChild(equips[i].getImgNode())
 		img.innerHTML += "<br>" + equips[i].name
@@ -219,5 +254,28 @@ function filterChanged() {
 		}
 		sl.appendChild(node)
 		sl.appendChild(document.createTextNode(" "))
+	}
+}
+
+var equipFilters = [-1, -1]
+function equipFilter() {
+	if (this.classList.contains("f1")) {
+		this.classList.remove("f1")
+		equipFilters[this.ftype] = -1
+	} else {
+		if (equipFilters[this.ftype] != -1) this.parentNode.children[equipFilters[this.ftype]].classList.remove("f1")
+		this.classList.add("f1")
+		for (var i = 0; i < this.parentNode.children.length; ++i) if (this.parentNode.children[i] == this) {
+			equipFilters[this.ftype] = i
+			break
+		}
+	}
+	var equipTable = $("#equipTable")[0].children[1].tBodies[0]
+	for (i = 0; i < equipTable.children.length; ++i) {
+		var flag = true
+		var equip = equipTable.children[i].equip
+		if (equipFilters[0] != -1 && (equip.attribs[equipFilters[0]] instanceof Array ? equip.attribs[equipFilters[0]][0] == 0 && equip.attribs[equipFilters[0]][1] == 0 : equip.attribs[equipFilters[0]] == 0)) flag = false
+		if (equipFilters[1] != -1 && equip.position != equipFilters[1] + 1) flag = false
+		equipTable.children[i].style.display = flag ? "table-row" : "none"
 	}
 }
