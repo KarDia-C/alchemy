@@ -40,6 +40,8 @@ function simulate(items) {
 	}
 	sum = [0, 0, 0, 0, 0, 0]
 	for (var i = 0; i < result.length; ++i) {
+		while (i < result.length && !result[i].alchemy) result.splice(i, 1)
+		if (i >= result.length) break
 		result[i]["chance"] = result[i]["weight"] // 复制一份，避免修改原值
 		for (j in result[i]["core"]) {
 			if (result[i]["core"][j] > 0 && !(result[i]["core"][j] <= material[j])) { // number <= undefined = false

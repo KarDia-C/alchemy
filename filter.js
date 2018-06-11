@@ -3,7 +3,7 @@
 var filterRules = [0]
 
 $(function(){
-	var $filters = $(".filter")
+	var $filters = $("#selector .filter")
 	for (var i = 0; i < $filters.length; ++i) {
 		var filter = $filters[i]
 		if (filter.attributes.ftype.value == "rarity") filter.onclick = function() {
