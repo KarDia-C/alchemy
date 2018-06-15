@@ -274,7 +274,7 @@ function equipFilter() {
 	for (i = 0; i < equipTable.children.length; ++i) {
 		var flag = true
 		var equip = equipTable.children[i].equip
-		if (equipFilters[0] != -1 && (equip.attribs[equipFilters[0]] instanceof Array ? equip.attribs[equipFilters[0]][0] == 0 && equip.attribs[equipFilters[0]][1] == 0 : equip.attribs[equipFilters[0]] == 0)) flag = false
+		if (equipFilters[0] != -1 && (equip.attribs[equipFilters[0]] instanceof Array ? equip.attribs[equipFilters[0]][0] == 0 : equip.attribs[equipFilters[0]] == 0)) flag = false
 		if (equipFilters[1] != -1 && equip.position != equipFilters[1] + 1) flag = false
 		equipTable.children[i].style.display = flag ? "table-row" : "none"
 	}
