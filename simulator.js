@@ -20,6 +20,7 @@ function simulate(items) {
 			else ++material[input[i]["type"]]
 		}
 	}
+	if (material[30035] == 1 && material[30036] == 2 && material[30051] == 1) rarityWeights[4] = 9999 // 我就不信你们歪了还不截图(╯‵□′)╯︵┻━┻)
 	var result = equips.slice(0)
 	result.ingredients = ingredients
 	if (sum <= 50) {
@@ -80,5 +81,6 @@ function simulate(items) {
 		if (a["rarity"] != b["rarity"]) return b["rarity"] - a["rarity"]
 		return a["type"] - b["type"]
 	})
+	rarityWeights[4] = 4 // L23
 	return result
 }
