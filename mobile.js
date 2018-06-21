@@ -9,7 +9,7 @@ function resetLayout() {
 	} else {
 		$("#result").css("width", "60vw")
 		$("#sc .item").css("width", "18vw")
-		$("#sc .item").css("height", "18.576vw")
+		$("#sc .item").css("height", "18.4vw")
 	}
 }
 window.addEventListener("resize", resetLayout)
@@ -216,6 +216,7 @@ function uiInit() {
 		tr.innerHTML += "<td>" + equips[i].getDetailDesc().replace(/\n/g, "<br>") + "</td><td>" + posNames[equips[i].position - 1] + "</td>"
 		var recommend = document.createElement("td")
 		tr.appendChild(recommend)
+		if (!equips[i].alchemy) continue
 		if (templets[equips[i].type] != undefined) {
 			var tmp = templets[equips[i].type]
 			var p = document.createElement("div")
