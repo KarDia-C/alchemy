@@ -21,6 +21,7 @@ function simulate(items) {
 		}
 	}
 	if (material[30035] == 1 && material[30036] == 2 && material[30051] == 1) rarityWeights[4] = 9999 // 我就不信你们歪了还不截图(╯‵□′)╯︵┻━┻)
+	if (material[30035] == 1 && material[30034] == 1 && material[30043] == 2) rarityWeights[4] = 9999 // 同上
 	var result = equips.slice(0)
 	result.ingredients = ingredients
 	if (sum <= 50) {
