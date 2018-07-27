@@ -31,18 +31,21 @@ function filter(materials) {
 		if (filterRules[0] != 0 && materials[i].rarity != filterRules[0]) continue
 		var f = true
 		materials[i].value = 0
-		for (var j = 1; j < filterRules.length; ++j) if (materials[i].ingredients[filterRules[j]] <= 0) {
+		if (filterRules.length == 1) {
+			for (var j = 0; j < materials[i].ingredients.length; ++j) materials[i].value += materials[i].ingredients[j]
+		} else for (var j = 1; j < filterRules.length; ++j) if (materials[i].ingredients[filterRules[j]] <= 0) {
 			f = false
 			break
 		} else materials[i].value += materials[i].ingredients[filterRules[j]]
 		if (f) foo.push(materials[i])
 	}
 	foo.sort(function(a, b){
-		if (a.value == 0) {
+		if (false && a.value == 0) {
 			if (a.rarity != b.rarity) return b.rarity - a.rarity
 			return a.type - b.type
 		}
 		if (a.value != b.value) return b.value - a.value
+		if (a.rarity != b.rarity) return b.rarity - a.rarity
 		return a.type - b.type
 	})
 	return foo
