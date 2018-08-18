@@ -143,23 +143,24 @@ function uiInit() {
 	table.border = "1"
 	table.cellSpacing = "0"
 	table.className = "infotable"
-	var tr = thead.insertRow()
-	tr.innerHTML = "<th style='width:15%;'></th>"
-	for (var i = 0; i < ingredientNames.length; i += 2) tr.innerHTML += "<th style='width:10%;'>" + ingredientNames[i] + ((i + 1) >= ingredientNames.length ? "" : "<hr>" + ingredientNames[i + 1]) + "</th>"
-	tr.innerHTML += "<th style='width:15%;'>来源</th>"
+	var tr = [thead.insertRow(), thead.insertRow(), thead.insertRow()]
+	tr[0].innerHTML = "<th style='width:15%;' rowspan='3'></th>"
+	for (var i = 0; i < ingredientNames.length; ++i) tr[parseInt(i / 5)].innerHTML += "<th style='width:10%;'>" + ingredientNames[i] +  "</th>"
+	tr[0].innerHTML += "<th style='width:20%;' rowspan='3'>来源</th>"
 	var foo = table.cloneNode()
 	foo.innerHTML = table.innerHTML
-	foo.className = "forzen"
+	foo.classList.add("forzen")
 	$("#materials")[0].appendChild(foo)
 	$("#materials")[0].appendChild(table)
 	for (i = 0; i < materials.length; ++i) {
-		tr = tbody.insertRow()
-		var img = tr.insertCell()
+		tr = [tbody.insertRow(), tbody.insertRow(), tbody.insertRow()]
+		var img = tr[0].insertCell()
 		img.appendChild(materials[i].getImgNode())
 		img.innerHTML += "<br>" + materials[i].name
 		if (materials[i].name.length > 6) img.style.fontSize = "3vw"
-		for (var j = 0; j < ingredientNames.length; j += 2) tr.innerHTML += "<td>" + materials[i].ingredients[j] + ((j + 1) >= ingredientNames.length ? "" : "<hr>" + materials[i].ingredients[j + 1]) + "</td>"
-		tr.innerHTML += "<td><div class='source'>" + materials[i].sources.replace(/\n/g, "<br>") + "</div></td>"
+		img.rowSpan = 3
+		for (var j = 0; j < ingredientNames.length; ++j) tr[parseInt(j / 5)].innerHTML += "<td>" + materials[i].ingredients[j] + "</td>"
+		tr[0].innerHTML += "<td rowspan='3'><div class='source'>" + materials[i].sources.replace(/\n/g, "<br>") + "</div></td>"
 	}
 
 	var filter = document.createElement("div")

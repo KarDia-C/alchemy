@@ -5,7 +5,7 @@ var rarityWeights = [0, 1, 2, 3, 4, 5]
 
 function simulate(items) {
 	var input = arguments[0] instanceof Array ? items : arguments
-	var ingredients = new Array(14)
+	var ingredients = new Array(15)
 	ingredients.fill(0)
 	var material = []
 	var sum = 0
@@ -20,8 +20,6 @@ function simulate(items) {
 			else ++material[input[i]["type"]]
 		}
 	}
-	if (material[30035] == 1 && material[30036] == 2 && material[30051] == 1) rarityWeights[4] = 9999 // 我就不信你们歪了还不截图(╯‵□′)╯︵┻━┻)
-	if (material[30035] == 1 && material[30034] == 1 && material[30043] == 2) rarityWeights[4] = 9999 // 同上
 	var result = equips.slice(0)
 	result.ingredients = ingredients
 	if (sum <= 50) {
@@ -36,9 +34,11 @@ function simulate(items) {
 	} else if (sum <= 125) {
 		result.gold = 2300
 		result.hour = 4
+		rarityWeights = [0, 1e-10, 2, 4, 4, 5]
 	} else {
 		result.gold = 3100
 		result.hour = 5
+		rarityWeights = [0, 1e-10, 1e-10, 4, 6, 5]
 	}
 	sum = [0, 0, 0, 0, 0, 0]
 	for (var i = 0; i < result.length; ++i) {
@@ -82,6 +82,6 @@ function simulate(items) {
 		if (a["rarity"] != b["rarity"]) return b["rarity"] - a["rarity"]
 		return a["type"] - b["type"]
 	})
-	rarityWeights[4] = 4 // L23
+	rarityWeights = [0, 1, 2, 3, 4, 5]
 	return result
 }

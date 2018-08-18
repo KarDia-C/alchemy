@@ -69,14 +69,14 @@ $.get("equips.json", function(response){
 			for (var i = 0; i < attributeNames.length; ++i) {
 				if (this.attribs[i] instanceof Array) {
 					if (this.attribs[i][0] > 0) {
-						var v1 = getFloatStr(this.attribs[i][0])
-						var v2 = getFloatStr(this.attribs[i][1])
+						var v1 = getFloatStr(this.attribs[i][0], this.floating)
+						var v2 = getFloatStr(this.attribs[i][1], this.floating)
 						if (attributeNames[i].indexOf("眩晕") != -1 || attributeNames[i].indexOf("冰冻") != -1) v2 = "2" // mmp
 						foo += attributeNames[i].replace("{$v1}", v1).replace("{$v2}", v2) + "\n"
 					}
 				} else {
 					if (this.attribs[i] > 0) {
-						foo += attributeNames[i].replace("{$v}", getFloatStr(this.attribs[i])) + "\n"
+						foo += attributeNames[i].replace("{$v}", getFloatStr(this.attribs[i], this.floating)) + "\n"
 					}
 				}
 			}
@@ -85,7 +85,7 @@ $.get("equips.json", function(response){
 	}
 	check()
 })
-$.get("templets.json", function(response){
+$.get(document.domain.startsWith("diaoyf") ? "/recipe_v2/templets.php" : "templets.json", function(response){
 	templets = response
 	check()
 })
@@ -105,7 +105,8 @@ function check() {
 	}
 }
 
-function getFloatStr(value) {
+function getFloatStr(value, floating) {
+	if (!floating) return value
 	var min = Math.round(value * .8)
 	var max = Math.round(value * 1.2)
 	if (min == max) return min
