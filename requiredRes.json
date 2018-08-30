@@ -1,0 +1,23 @@
+{
+  "name": "",
+  "files": [],
+  "dirs": [{
+    "name": "js",
+    "files": ["*"],
+	"dirs": []
+  },
+  {
+    "name": "img",
+    "files": [],
+	"dirs": [{
+	  "name": "item",
+	  "files": ["*"],
+	  "dirs": []
+	},
+	{
+	  "name": "803",
+	  "files": ["*"],
+	  "dirs": []
+	}]
+  }]
+}
