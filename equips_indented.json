@@ -2302,4 +2302,24 @@
   "position": 4,
   "floating": true,
   "type": "60093"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]龙族的加护",
+  "weight": 5,
+  "rarity": 2,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60094"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]兔耳",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60095"
  }
