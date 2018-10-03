@@ -2322,4 +2322,74 @@
   "position": 4,
   "floating": true,
   "type": "60095"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [2, 15], [0, 15], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]食人鱼头饰",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60096"
+ },
+ {
+  "attribs": [0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]下雨的云",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60097"
+ },
+ {
+  "attribs": [0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [3, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]雨蛙遮阳帽",
+  "weight": 5,
+  "rarity": 2,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60098"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]巨嘴鸟帽子",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60099"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]冰镇椰汁",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60100"
+ },
+ {
+  "attribs": [0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 12, 0],
+  "name": "[装扮]贝壳胸衣",
+  "weight": 5,
+  "rarity": 2,
+  "alchemy": false,
+  "position": 5,
+  "floating": true,
+  "type": "60101"
+ },
+ {
+  "attribs": [0, 0, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]希望之花",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 5,
+  "floating": true,
+  "type": "60102"
  }
