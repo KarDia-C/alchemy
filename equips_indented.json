@@ -2392,4 +2392,24 @@
   "position": 5,
   "floating": true,
   "type": "60102"
+ },
+ {
+  "attribs": [0, 8, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]酋长面具",
+  "weight": 5,
+  "rarity": 2,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60103"
+ },
+ {
+  "attribs": [0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 1, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]甜甜圈游泳圈",
+  "weight": 5,
+  "rarity": 2,
+  "alchemy": false,
+  "position": 5,
+  "floating": true,
+  "type": "60104"
  }
