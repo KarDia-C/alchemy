@@ -1540,13 +1540,13 @@
   "type": "50145"
  },
  {
-  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 14, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "name": "[装扮]紧急药水",
   "weight": 5,
   "rarity": 2,
   "alchemy": false,
   "position": 5,
-  "floating": true,
+  "floating": false,
   "type": "60001"
  },
  {
@@ -1600,13 +1600,13 @@
   "type": "60008"
  },
  {
-  "attribs": [2, 2, 10, 2, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "attribs": [2, 2, 12, 2, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "name": "[装扮]探索者之帽",
   "weight": 5,
   "rarity": 1,
   "alchemy": false,
   "position": 4,
-  "floating": true,
+  "floating": false,
   "type": "60009"
  },
  {
@@ -1616,7 +1616,7 @@
   "rarity": 3,
   "alchemy": false,
   "position": 5,
-  "floating": true,
+  "floating": false,
   "type": "60010"
  },
  {
@@ -1780,33 +1780,33 @@
   "type": "60026"
  },
  {
-  "attribs": [0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "attribs": [0, 0, 60, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "name": "[装扮]鹰纹徽章",
   "weight": 5,
   "rarity": 1,
   "alchemy": false,
   "position": 5,
-  "floating": true,
+  "floating": false,
   "type": "60027"
  },
  {
-  "attribs": [0, 0, 70, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "attribs": [0, 0, 84, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "name": "[装扮]狮纹徽章",
   "weight": 5,
   "rarity": 1,
   "alchemy": false,
   "position": 5,
-  "floating": true,
+  "floating": false,
   "type": "60028"
  },
  {
-  "attribs": [0, 0, 60, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "attribs": [0, 0, 72, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "name": "[装扮]狼纹徽章",
   "weight": 5,
   "rarity": 1,
   "alchemy": false,
   "position": 5,
-  "floating": true,
+  "floating": false,
   "type": "60029"
  },
  {
@@ -1830,13 +1830,13 @@
   "type": "60031"
  },
  {
-  "attribs": [0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "attribs": [0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "name": "[装扮]史莱姆帽子",
   "weight": 5,
   "rarity": 1,
   "alchemy": false,
   "position": 4,
-  "floating": true,
+  "floating": false,
   "type": "60033"
  },
  {
@@ -1846,7 +1846,7 @@
   "rarity": 1,
   "alchemy": false,
   "position": 5,
-  "floating": true,
+  "floating": false,
   "type": "60034"
  },
  {
@@ -1940,23 +1940,23 @@
   "type": "60049"
  },
  {
-  "attribs": [5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "attribs": [6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "name": "[装扮]莉安夕的泳圈",
   "weight": 5,
   "rarity": 1,
   "alchemy": false,
   "position": 5,
-  "floating": true,
+  "floating": false,
   "type": "60050"
  },
  {
-  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "name": "[装扮]爱心徽章",
   "weight": 5,
   "rarity": 1,
   "alchemy": false,
   "position": 5,
-  "floating": true,
+  "floating": false,
   "type": "60055"
  },
  {
@@ -2020,23 +2020,23 @@
   "type": "60063"
  },
  {
-  "attribs": [5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "attribs": [6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "name": "[装扮]季前赛优胜纪念绶带",
   "weight": 5,
   "rarity": 1,
   "alchemy": false,
   "position": 5,
-  "floating": true,
+  "floating": false,
   "type": "60064"
  },
  {
-  "attribs": [0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "attribs": [0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "name": "[装扮]季前赛参赛纪念徽章",
   "weight": 5,
   "rarity": 1,
   "alchemy": false,
   "position": 5,
-  "floating": true,
+  "floating": false,
   "type": "60065"
  },
  {
@@ -2100,13 +2100,13 @@
   "type": "60071"
  },
  {
-  "attribs": [7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "attribs": [8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "name": "[装扮]品库款肩包",
   "weight": 5,
   "rarity": 2,
   "alchemy": false,
   "position": 5,
-  "floating": true,
+  "floating": false,
   "type": "60072"
  },
  {
@@ -2280,7 +2280,7 @@
   "rarity": 4,
   "alchemy": false,
   "position": 5,
-  "floating": true,
+  "floating": false,
   "type": "60091"
  },
  {
@@ -2290,7 +2290,7 @@
   "rarity": 4,
   "alchemy": false,
   "position": 5,
-  "floating": true,
+  "floating": false,
   "type": "60092"
  },
  {
@@ -2300,7 +2300,7 @@
   "rarity": 4,
   "alchemy": false,
   "position": 4,
-  "floating": true,
+  "floating": false,
   "type": "60093"
  },
  {
@@ -2310,7 +2310,7 @@
   "rarity": 2,
   "alchemy": false,
   "position": 4,
-  "floating": true,
+  "floating": false,
   "type": "60094"
  },
  {
@@ -2412,4 +2412,74 @@
   "position": 5,
   "floating": true,
   "type": "60104"
+ },
+ {
+  "attribs": [0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]果汁头饰",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60118"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]蝶翼头饰",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60119"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 40, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]华美极乐鸟",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60120"
+ },
+ {
+  "attribs": [0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]丛林遗落骨骸",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60121"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [1, 2], [0, 2], 0, 0],
+  "name": "[装扮]头部中箭",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60122"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 12, 0],
+  "name": "[装扮]热带章鱼帽",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60123"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [2, 10], [0, 10], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]菠萝眼镜",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60124"
  }
