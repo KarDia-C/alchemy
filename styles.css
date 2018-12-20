@@ -10,7 +10,7 @@ body{text-align:center;margin:0px;}
 #maintable{border-spacing:0px;height:100%;}
 #maintable td{padding:0px;}
 #p1{background:url(bgp1.png);background-size:100%;width:100%;height:37.92vw;} /* 37.92 = 273 / 720 * 100 */
-.tab{width:21.8vw;height:8.6vw;background-size:100%;position:absolute;top:30.28vw;}
+.tab{width:21.8vw;height:8.6vw;background-size:100%;position:absolute;top:30.28vw;z-index:1;}
 .tabd{display:none;height:calc(100vh - 61.52vw);min-height:94.86vw;background:#907E4E;overflow-y:auto;}
 .infotable{color:#361300;font-size:4vw;table-layout:fixed;width:100%;}
 .forzen{position:absolute;background:#907E4E;}
