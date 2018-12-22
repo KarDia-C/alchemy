@@ -2414,6 +2414,46 @@
   "type": "60104"
  },
  {
+  "attribs": [5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]南瓜头",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": false,
+  "type": "60111"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]恐惧帷幕",
+  "weight": 5,
+  "rarity": 4,
+  "alchemy": false,
+  "position": 5,
+  "floating": false,
+  "type": "60112"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]黑夜之翼",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": false,
+  "type": "60113"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]蝠翼披肩",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 5,
+  "floating": false,
+  "type": "60114"
+ },
+ {
   "attribs": [0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "name": "[装扮]果汁头饰",
   "weight": 5,
@@ -2482,4 +2522,44 @@
   "position": 4,
   "floating": true,
   "type": "60124"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]圣诞冰晶",
+  "weight": 5,
+  "rarity": 4,
+  "alchemy": false,
+  "position": 4,
+  "floating": false,
+  "type": "60135"
+ },
+ {
+  "attribs": [5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]圣诞鹿角",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60136"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]装满礼物的口袋",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 5,
+  "floating": true,
+  "type": "60137"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]圣诞帽",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": true,
+  "type": "60138"
  }
