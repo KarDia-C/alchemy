@@ -52,7 +52,7 @@ body{text-align:center;margin:0px;}
 .hr{background:url(hr.png);background-size:100%;width:100%;height:2.64vw;position:relative;} /* 2.64 = 19 / 720 * 100 */
 
 /* info */
-.info{border:2vw solid transparent;border-image-source:url(infobg.png);border-image-slice:35 25;border-image-width:7vw 5vw;border-image-outset:1vw;border-image-repeat:repeat;background:#FFF4D4;display:inline-block;min-width:20vw;position:absolute;display:none;z-index:1;}
+.info{border:2vw solid transparent;border-image-source:url(infobg.png);border-image-slice:35 25;border-image-width:7vw 5vw;border-image-outset:1vw;border-image-repeat:repeat;background:#FFF4D4;display:inline-block;min-width:20vw;position:absolute;display:none;z-index:10;}
 .name{color:#A36840;font-size:4vw;}
 .detail{color:#B75317;font-size:3vw;}
 
