@@ -143,24 +143,28 @@ function uiInit() {
 	table.border = "1"
 	table.cellSpacing = "0"
 	table.className = "infotable"
-	var tr = [thead.insertRow(), thead.insertRow(), thead.insertRow()]
-	tr[0].innerHTML = "<th style='width:15%;' rowspan='3'></th>"
-	for (var i = 0; i < ingredientNames.length; ++i) tr[parseInt(i / 5)].innerHTML += "<th style='width:10%;'>" + ingredientNames[i] +  "</th>"
-	tr[0].innerHTML += "<th style='width:20%;' rowspan='3'>来源</th>"
+	var colCount = 5
+	var rowCount = Math.ceil(ingredientNames.length / colCount)
+	var tr = []
+	for (var i = 0; i < rowCount; ++i) tr.push(thead.insertRow())
+	tr[0].innerHTML = "<th style='width:15%;' rowspan='" + rowCount + "'></th>"
+	for (i = 0; i < ingredientNames.length; ++i) tr[parseInt(i / colCount)].innerHTML += "<th style='width:10%;'>" + ingredientNames[i] +  "</th>"
+	tr[0].innerHTML += "<th style='width:20%;' rowspan='" + rowCount + "'>来源</th>"
 	var foo = table.cloneNode()
 	foo.innerHTML = table.innerHTML
 	foo.classList.add("forzen")
 	$("#materials")[0].appendChild(foo)
 	$("#materials")[0].appendChild(table)
 	for (i = 0; i < materials.length; ++i) {
-		tr = [tbody.insertRow(), tbody.insertRow(), tbody.insertRow()]
+		tr = []
+		for (var j = 0; j < rowCount; ++j) tr.push(tbody.insertRow())
 		var img = tr[0].insertCell()
 		img.appendChild(materials[i].getImgNode())
 		img.innerHTML += "<br>" + materials[i].name
 		if (materials[i].name.length > 6) img.style.fontSize = "3vw"
-		img.rowSpan = 3
-		for (var j = 0; j < ingredientNames.length; ++j) tr[parseInt(j / 5)].innerHTML += "<td>" + materials[i].ingredients[j] + "</td>"
-		tr[0].innerHTML += "<td rowspan='3'><div class='source'>" + materials[i].sources.replace(/\n/g, "<br>") + "</div></td>"
+		img.rowSpan = rowCount
+		for (j = 0; j < ingredientNames.length; ++j) tr[parseInt(j / colCount)].innerHTML += "<td>" + materials[i].ingredients[j] + "</td>"
+		tr[0].innerHTML += "<td rowspan='" + rowCount + "'><div class='source'>" + materials[i].sources.replace(/\n/g, "<br>") + "</div></td>"
 	}
 
 	var filter = document.createElement("div")
