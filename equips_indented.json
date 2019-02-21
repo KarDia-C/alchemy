@@ -2746,4 +2746,44 @@
   "position": 4,
   "floating": false,
   "type": "60154"
+ },
+ {
+  "attribs": [0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]神圣领结",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 5,
+  "floating": false,
+  "type": "60155"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]氪金太阳镜",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": false,
+  "type": "60156"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]指引标记",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": false,
+  "type": "60157"
+ },
+ {
+  "attribs": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "name": "[装扮]神官帽",
+  "weight": 5,
+  "rarity": 1,
+  "alchemy": false,
+  "position": 4,
+  "floating": false,
+  "type": "60158"
  }
