@@ -7,25 +7,21 @@ function compareRarity(a, b) {
 	return a.type - b.type
 }
 function getImgNode(value) {
-	var foo = document.createElement("span")
-	foo.style.backgroundImage = "url(/img/item/item_" + this.type + "_L.png)"
+	var foo = document.createElement("div")
 	foo.className = "item"
 	foo.oncontextmenu = longClick
 	foo.ontouchmove = moveIn
 	foo.obj = this
+	var img = document.createElement("img")
+	img.classList = "bg"
+	img.src = "/img/item/item_" + this.type + "_L.png";
+	foo.appendChild(img)
 	if (value > 0) { // undefined > 0 = false
 		var bar = document.createElement("span")
 		bar.className = "sortv"
 		bar.innerHTML = this.value
 		foo.appendChild(bar)
 	}
-	return foo
-}
-function getHighlightImgNode() {
-	var foo = document.createElement("span")
-	foo.style.backgroundImage = "url(/img/item/item_" + this.type + "_L.png)"
-	foo.className = "highlight r" + this.rarity
-	foo.obj = this
 	return foo
 }
 $.get("names.json", function(response){
@@ -48,7 +44,6 @@ $.get("materials.json", function(response,status,xhr){
 		}
 		*/
 		materials[mi].getImgNode = getImgNode
-		materials[mi].getHighlightImgNode = getHighlightImgNode
 		materials[mi].getDetailDesc = function() {
 			var foo = ""
 			for (var i = 0; i < ingredientNames.length; ++i) {
