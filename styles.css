@@ -9,7 +9,7 @@ body{text-align:center;margin:0px;}
 
 #maintable{border-spacing:0px;height:100%;}
 #maintable td{padding:0px;}
-#p1{background:url(bgp1.png);background-size:100%;width:100%;height:37.92vw;} /* 37.92 = 273 / 720 * 100 */
+#p1{width:100%;height:37.92vw;} /* 37.92 = 273 / 720 * 100 */
 .tab{width:21.8vw;height:8.6vw;background-size:100%;position:absolute;top:30.28vw;z-index:1;}
 .tabd{display:none;height:calc(100vh - 61.52vw);min-height:94.86vw;background:#907E4E;overflow-y:auto;}
 .infotable{color:#361300;font-size:4vw;table-layout:fixed;width:100%;}
@@ -35,8 +35,9 @@ body{text-align:center;margin:0px;}
 #gold{width:4vw;height:4vw;}
 #selector{height:calc(100vh - 85.38vw);min-height:71vw;width:61vw;position:absolute;top:64.92vw;right:0px;background:#907E4E;display:none;}
 #sb{height:100%;width:2.5vw;background:url(border.png);background-size:100%;display:inline-block;}
-#filter{margin:1vw 0;height:23vw;}
+#filter{margin:1vw 0;}
 .filter{border:.7vw outset #e6d8ab;border-radius:1.7vw;background:#e6d8ab;color:#361300;font-weight:bold;font-size:3vw;padding:0px;box-shadow:0px 0px 0px .5vw;margin:.8vw .4vw;}
+.filter:empty{display:none;}
 .f1{border-style:inset;}
 .f2{border-style:inset;color:green;}
 .f3{border-style:inset;color:blue;}
@@ -45,11 +46,14 @@ body{text-align:center;margin:0px;}
 .d1{min-width:5.6vw;}
 .d2{min-width:8.8vw;}
 #sc{height:100%;width:58.5vw;display:inline-block;}
-#sl{overflow-y:auto;height:calc(100% - 25vw);}
+#sci{display:flex;flex-direction:column;height:100%;}
+#sl{overflow-y:auto;}
 #sl .item{width:18vw;height:18.4vw;position:relative;}
 .sortv{position:absolute;top:1vw;left:2vw;color:white;font-weight:bold;-webkit-text-stroke:#361300 0.3vw;font-size:5vw;}
 #p4{background:url(bgp4.png);background-size:100%;width:100%;height:18.33vw;position:relative;} /* 18.33 = 132 / 720 * 100 */
 .hr{background:url(hr.png);background-size:100%;width:100%;height:2.64vw;position:relative;} /* 2.64 = 19 / 720 * 100 */
+
+img.bg{position:relative;left:0px;top:0px;width:100%;}
 
 /* info */
 .info{border:2vw solid transparent;border-image-source:url(infobg.png);border-image-slice:35 25;border-image-width:7vw 5vw;border-image-outset:1vw;border-image-repeat:repeat;background:#FFF4D4;display:inline-block;min-width:20vw;position:absolute;display:none;z-index:10;}

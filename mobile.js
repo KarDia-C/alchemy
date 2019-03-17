@@ -24,7 +24,7 @@ function toggleSelector() {
 }
 
 function showSelector() {
-	$("#selector")[0].style.display = "block"
+	$("#selector")[0].style.display = "flex"
 	showing = true
 }
 
