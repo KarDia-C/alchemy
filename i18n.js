@@ -43,4 +43,8 @@ onhashchange = function() {
 
 $(function() {
     updateImg("chs", lang);
+    $("#server").click(function() {
+        if ($("#server img").attr("src").indexOf("chs") != -1) location.hash = "#cht";
+        else location.hash = "#chs";
+    });
 })
