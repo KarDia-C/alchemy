@@ -16,6 +16,7 @@ body{text-align:center;margin:0px;}
 .forzen{position:absolute;background:#907E4E;z-index:1;}
 #materials hr{border:1px solid #361300;margin:0px;}
 .infotable .item{width:14vw;}
+#materials td:first-child[rowspan]{height:26vw;}
 .source, .recommend{max-height:26vw;overflow-y:auto;font-size:3vw;}
 .recommend table{border-collapse:collapse;}
 #equips hr{border:1px solid #361300;margin:0 0 1vw;}

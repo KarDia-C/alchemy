@@ -151,7 +151,7 @@ function genTables() {
 	var tr = []
 	for (var i = 0; i < rowCount; ++i) tr.push(thead.insertRow())
 	tr[0].innerHTML = "<th style='width:15%;' rowspan='" + rowCount + "'></th>"
-	for (i = 0; i < ingredientNames[lang].length; ++i) tr[parseInt(i / colCount)].innerHTML += "<th style='width:10%;'>" + ingredientNames[lang][i] +  "</th>"
+	for (i = 0; i < ingredientNames[lang].length || i % colCount != 0; ++i) tr[parseInt(i / colCount)].innerHTML += "<th style='width:10%;'>" + (i < ingredientNames[lang].length ? ingredientNames[lang][i] : '') +  "</th>"
 	tr[0].innerHTML += "<th style='width:20%;' rowspan='" + rowCount + "'>"+getString("source")+"</th>"
 	var foo = table.cloneNode()
 	foo.innerHTML = table.innerHTML
@@ -166,7 +166,7 @@ function genTables() {
 		img.innerHTML += "<br>" + materials[i].name[lang]
 		if (materials[i].name[lang].length > 6) img.style.fontSize = "3vw"
 		img.rowSpan = rowCount
-		for (j = 0; j < ingredientNames[lang].length; ++j) tr[parseInt(j / colCount)].innerHTML += "<td>" + materials[i].ingredients[j] + "</td>"
+		for (j = 0; j < ingredientNames[lang].length || j % colCount != 0; ++j) tr[parseInt(j / colCount)].innerHTML += "<td>" + (j < ingredientNames[lang].length ? materials[i].ingredients[j] : '') + "</td>"
 		tr[0].innerHTML += "<td rowspan='" + rowCount + "'><div class='source'>" + materials[i].sources[lang].replace(/\n/g, "<br>") + "</div></td>"
 	}
 
