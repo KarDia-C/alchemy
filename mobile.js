@@ -46,7 +46,7 @@ var showingInfo = false
 
 function longClick(event) {
 	event.preventDefault()
-	showInfo(event, this.obj.name, this.obj.getDetailDesc())
+	showInfo(event, this.obj.name[lang], this.obj.getDetailDesc())
 	showingInfo = true
 }
 
@@ -55,7 +55,7 @@ function moveIn(event) {
 		event = event.touches[0]
 		var obj = document.elementFromPoint(event.clientX, event.clientY)
 		if (obj != null) obj = obj.obj
-		if (obj != undefined) showInfo(event, obj.name, obj.getDetailDesc())
+		if (obj != undefined) showInfo(event, obj.name[lang], obj.getDetailDesc())
 		else hideInfo()
 	}
 }
@@ -90,9 +90,9 @@ function setResult(result) {
 	table.innerHTML = ""
 	for (var i = 0; i < result.length; ++i) table.appendChild(getResultTRNode(result[i]))
 	var state = $("#state")[0]
-	var statestr = "时间：" + result.hour + "h<br/>金币：<img src=\"gold.png\" id=\"gold\" />" + result.gold + "<hr/>"
-	for (var i = 0; i < ingredientNames.length; ++i) if (result.ingredients[i] != 0) {
-		statestr += ingredientNames[i] + "x" + result.ingredients[i] + "<br/>"
+	var statestr = getString("time") + "：" + result.hour + "h<br/>" + getString("cost") + "：<img src=\"gold.png\" id=\"gold\" />" + result.gold + "<hr/>"
+	for (var i = 0; i < ingredientNames[lang].length; ++i) if (result.ingredients[i] != 0) {
+		statestr += ingredientNames[lang][i] + "x" + result.ingredients[i] + "<br/>"
 	}
 	state.innerHTML = statestr.slice(0, -5)
 }
@@ -108,12 +108,12 @@ function getResultTRNode(equip) {
 	var require = document.createElement("td")
 	var reqstr = ""
 	for (var core in equip.core) {
-		reqstr += getItem(core).name
+		reqstr += getItem(core).name[lang]
 		if (equip.core[core] > 1) reqstr += "x" + equip.core[core]
 		reqstr += "<br/>"
 	}
-	for (var i = 0; i < ingredientNames.length; ++i) if (equip.ingredients[i] != 0) {
-		reqstr += ingredientNames[i] + "x" + equip.ingredients[i] + "<br/>"
+	for (var i = 0; i < ingredientNames[lang].length; ++i) if (equip.ingredients[i] != 0) {
+		reqstr += ingredientNames[lang][i] + "x" + equip.ingredients[i] + "<br/>"
 	}
 	require.innerHTML = reqstr.slice(0, -5)
 	root.appendChild(require)
@@ -135,8 +135,11 @@ $(function(){
 function uiInit() {
 	setResult()
 	filterChanged()
+	genTables()
+	updateStrings()
+}
 
-	// 生成俩表格
+function genTables() {
 	var table = document.createElement("table")
 	var thead = table.createTHead()
 	var tbody = table.createTBody()
@@ -144,40 +147,42 @@ function uiInit() {
 	table.cellSpacing = "0"
 	table.className = "infotable"
 	var colCount = 5
-	var rowCount = Math.ceil(ingredientNames.length / colCount)
+	var rowCount = Math.ceil(ingredientNames[lang].length / colCount)
 	var tr = []
 	for (var i = 0; i < rowCount; ++i) tr.push(thead.insertRow())
 	tr[0].innerHTML = "<th style='width:15%;' rowspan='" + rowCount + "'></th>"
-	for (i = 0; i < ingredientNames.length; ++i) tr[parseInt(i / colCount)].innerHTML += "<th style='width:10%;'>" + ingredientNames[i] +  "</th>"
-	tr[0].innerHTML += "<th style='width:20%;' rowspan='" + rowCount + "'>来源</th>"
+	for (i = 0; i < ingredientNames[lang].length; ++i) tr[parseInt(i / colCount)].innerHTML += "<th style='width:10%;'>" + ingredientNames[lang][i] +  "</th>"
+	tr[0].innerHTML += "<th style='width:20%;' rowspan='" + rowCount + "'>"+getString("source")+"</th>"
 	var foo = table.cloneNode()
 	foo.innerHTML = table.innerHTML
 	foo.classList.add("forzen")
-	$("#materials")[0].appendChild(foo)
-	$("#materials")[0].appendChild(table)
+	$("#materials").html('').append(foo).append(table)
 	for (i = 0; i < materials.length; ++i) {
+		if (materials[i].available.indexOf(lang) == -1) continue
 		tr = []
 		for (var j = 0; j < rowCount; ++j) tr.push(tbody.insertRow())
 		var img = tr[0].insertCell()
 		img.appendChild(materials[i].getImgNode())
-		img.innerHTML += "<br>" + materials[i].name
-		if (materials[i].name.length > 6) img.style.fontSize = "3vw"
+		img.innerHTML += "<br>" + materials[i].name[lang]
+		if (materials[i].name[lang].length > 6) img.style.fontSize = "3vw"
 		img.rowSpan = rowCount
-		for (j = 0; j < ingredientNames.length; ++j) tr[parseInt(j / colCount)].innerHTML += "<td>" + materials[i].ingredients[j] + "</td>"
-		tr[0].innerHTML += "<td rowspan='" + rowCount + "'><div class='source'>" + materials[i].sources.replace(/\n/g, "<br>") + "</div></td>"
+		for (j = 0; j < ingredientNames[lang].length; ++j) tr[parseInt(j / colCount)].innerHTML += "<td>" + materials[i].ingredients[j] + "</td>"
+		tr[0].innerHTML += "<td rowspan='" + rowCount + "'><div class='source'>" + materials[i].sources[lang].replace(/\n/g, "<br>") + "</div></td>"
 	}
 
 	var filter = document.createElement("div")
 	filter.id = "equipFilter"
-	$("#equips")[0].appendChild(filter)
+	var tablediv = document.createElement("div")
+	tablediv.id = "equipTable"
+	$("#equips").html('').append(filter).append(tablediv)
 	var line = document.createElement("div")
 	line.className = "filterLine"
 	filter.appendChild(line)
 	var lined = document.createElement("div")
 	line.appendChild(lined)
-	for (i = 0; i < attributeNames.length; ++i) {
+	for (i = 0; i < attributeNames[lang].length; ++i) {
 		var btn = document.createElement("button")
-		btn.innerHTML = attributeNames[i].slice(0, attributeNames[i].search(/[{+-]/))
+		btn.innerHTML = attributeNames[lang][i].slice(0, attributeNames[lang][i].search(/[{+-]/))
 		btn.className = "filter"
 		btn.ftype = 0
 		btn.onclick = equipFilter
@@ -188,37 +193,35 @@ function uiInit() {
 	filter.appendChild(line)
 	lined = document.createElement("div")
 	line.appendChild(lined)
-	for (i = 0; i < posNames.length; ++i) {
+	for (i = 0; i < posNames[lang].length; ++i) {
 		btn = document.createElement("button")
-		btn.innerHTML = posNames[i]
+		btn.innerHTML = posNames[lang][i]
 		btn.className = "filter"
 		btn.ftype = 1
 		btn.onclick = equipFilter
 		lined.appendChild(btn)
 	}
-	var tablediv = document.createElement("div")
-	tablediv.id = "equipTable"
-	$("#equips")[0].appendChild(tablediv)
 	table = document.createElement("table")
 	thead = table.createTHead()
 	tbody = table.createTBody()
 	table.border = "1"
 	table.cellSpacing = "0"
 	table.className = "infotable"
-	thead.innerHTML = "<tr><th style='width:15%;'></th><th style='width:42%;'>属性</th><th style='width:10%;'>部位</th><th style='width:33%;'>推荐公式</th></tr>"
+	thead.innerHTML = "<tr><th style='width:15%;'></th><th style='width:42%;'>"+getString("attrib")+"</th><th style='width:10%;'>"+getString("part")+"</th><th style='width:33%;'>"+getString("recommend")+"</th></tr>"
 	foo = table.cloneNode()
 	foo.innerHTML = table.innerHTML
 	foo.classList.add("forzen")
 	tablediv.appendChild(foo)
 	tablediv.appendChild(table)
 	for (i = 0; i < equips.length; ++i) {
+		if (equips[i].available.indexOf(lang) == -1) continue
 		tr = tbody.insertRow()
 		tr.equip = equips[i]
 		img = tr.insertCell()
 		img.appendChild(equips[i].getImgNode())
-		img.innerHTML += "<br>" + equips[i].name
-		if (equips[i].name.length > 6) img.style.fontSize = "3vw"
-		tr.innerHTML += "<td>" + equips[i].getDetailDesc().replace(/\n/g, "<br>") + "</td><td>" + posNames[equips[i].position - 1] + "</td>"
+		img.innerHTML += "<br>" + equips[i].name[lang]
+		if (equips[i].name[lang].length > 6) img.style.fontSize = "3vw"
+		tr.innerHTML += "<td>" + equips[i].getDetailDesc().replace(/\n/g, "<br>") + "</td><td>" + posNames[lang][equips[i].position - 1] + "</td>"
 		var recommend = document.createElement("td")
 		tr.appendChild(recommend)
 		if (!equips[i].alchemy) continue

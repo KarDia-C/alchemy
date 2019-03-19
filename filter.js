@@ -29,6 +29,7 @@ function filter(materials) {
 	var foo = []
 	for (var i = 0; i < materials.length; ++i) {
 		if (filterRules[0] != 0 && materials[i].rarity != filterRules[0]) continue
+		if (materials[i].available.indexOf(lang) == -1) continue
 		var f = true
 		materials[i].value = 0
 		if (filterRules.length == 1) {

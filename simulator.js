@@ -5,7 +5,7 @@ var rarityWeights = [0, 1, 2, 3, 4, 5]
 
 function simulate(items) {
 	var input = arguments[0] instanceof Array ? items : arguments
-	var ingredients = new Array(attributeNames.length)
+	var ingredients = new Array(attributeNames[lang].length)
 	ingredients.fill(0)
 	var material = []
 	var sum = 0
@@ -42,7 +42,7 @@ function simulate(items) {
 	}
 	sum = [0, 0, 0, 0, 0, 0]
 	for (var i = 0; i < result.length; ++i) {
-		while (i < result.length && !result[i].alchemy) result.splice(i, 1)
+		while (i < result.length && (!result[i].alchemy || result[i].available.indexOf(lang) == -1)) result.splice(i, 1)
 		if (i >= result.length) break
 		result[i]["chance"] = result[i]["weight"] // 复制一份，避免修改原值
 		for (j in result[i]["core"]) {

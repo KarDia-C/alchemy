@@ -8,6 +8,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119962177-1"></script>
     <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'UA-119962177-1');</script>
     <script src="/js/jquery-1.11.1.min.js"></script>
+    <script src="i18n.js"></script>
     <script src="items.js"></script>
     <script src="simulator.js"></script>
     <script src="mobile.js"></script>
@@ -24,7 +25,7 @@
     <div class="unselectable" onselectstart="return false;" unselectable="on" id="main">
         <div id="p1">
             <img class="bg i18n" src="bgp1_chs.png">
-            <img src="recommend_chs.png" onload="if(navigator.userAgent.indexOf('KarDia')!=-1)this.parentNode.removeChild(this)"
+            <img class="i18n" src="recommend_chs.png" onload="if(navigator.userAgent.indexOf('KarDia')!=-1)this.parentNode.removeChild(this)"
                 style="width:41.39vw;position:absolute;left:3.75vw;top:24.86vw;" />
             <div class="tab" style="left:19.25vw;">
                 <img class="bg i18n" src="material_chs.png" />
@@ -65,17 +66,17 @@
         <div id="selector">
             <div id="sb"></div><div id="sc">
                 <div id="sci">
-                    <div id="filter"><button class="filter d2" ftype="rarity">品质</button><button class="filter d2" ftype="2">金属</button><button
-                            class="filter d2" ftype="6">粘液</button><button class="filter d2" ftype="7">魔力</button><button
-                            class="filter d2" ftype="8">宝石</button><button class="filter d2" ftype="9">食物</button><button
-                            class="filter d1" ftype="0">木</button><button class="filter d1" ftype="1">布</button><button
-                            class="filter d1" ftype="3">石</button><button class="filter d1" ftype="4">花</button><button
-                            class="filter d1" ftype="5">骨</button><button class="filter d1" ftype="10">水</button><button
-                            class="filter d1" ftype="11">火</button><button class="filter d1" ftype="12">地</button><button
-                            class="filter d1" ftype="13">风</button><button class="filter d1" ftype="14">异界</button><button
-                            class="filter d1" ftype="15">异界合金</button><button class="filter d1" ftype="16">油</button><button
-                            class="filter d1" ftype="17">弹</button><button class="filter d1" ftype="18">钢</button><button
-                            class="filter d1" ftype="19">铝</button></div>
+                    <div id="filter"><button class="filter i18n d2" ftype="rarity">品质</button><button class="filter i18n d2" ftype="2">金属</button><button
+                            class="filter i18n d2" ftype="6">粘液</button><button class="filter i18n d2" ftype="7">魔力</button><button
+                            class="filter i18n d2" ftype="8">宝石</button><button class="filter i18n d2" ftype="9">食物</button><button
+                            class="filter i18n d1" ftype="0">木</button><button class="filter i18n d1" ftype="1">布</button><button
+                            class="filter i18n d1" ftype="3">石</button><button class="filter i18n d1" ftype="4">花</button><button
+                            class="filter i18n d1" ftype="5">骨</button><button class="filter i18n d1" ftype="10">水</button><button
+                            class="filter i18n d1" ftype="11">火</button><button class="filter i18n d1" ftype="12">地</button><button
+                            class="filter i18n d1" ftype="13">风</button><button class="filter i18n d1" ftype="14">异界</button><button
+                            class="filter i18n d1" ftype="15">异界合金</button><button class="filter i18n d1" ftype="16">油</button><button
+                            class="filter i18n d1" ftype="17">弹</button><button class="filter i18n d1" ftype="18">钢</button><button
+                            class="filter i18n d1" ftype="19">铝</button></div>
                     <div id="sl"></div>
                 </div>
             </div>
@@ -84,8 +85,8 @@
         <div id="p4">
             <div id="license">
                 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/"><img alt="知识共享许可协议"
-                        style="border-width:0;min-width:20%;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAllBMVEUAAAD///+rsapERER3d3eIiIjMzMzu7u4iIiKUmZO6v7rKzsoODg4RERFVVVUNDQ0NDg0PEA8zMzNLTEtbXltmZmZydnF9gn2AgICPkI+ZmZmqqqq7u7vFxsXIzMgNDQwZGRkgICAhISEkJSMnKCcuMC4xMzE5Ozk7PTtBQkFCQkJDQ0Nna2eGhoaHh4ezuLLGysbd3d1wVGpAAAAA4UlEQVR42q2T1xqCMAyFk7QsBQeKA9x7j/d/OSm22CpX0nzcpA1/T05aAOuBVkMAScQFHLnEwoCo2f1TnQIGoVMewjZEjVFN4GH1Ue1Cn2jWqwfsOOj6wDwGvotsl/c8lv7KIq1eLOsT0HMFHMIE/RZyHnlphryT9zyV+8WH5e8yQw3wnQvgAFxPTKUVi555SHR/lOfLMgVTeDlSfN+TaoUsiTyeIm+bCkHvCA2FUKG48LDtYBZBknsYP/G8NTw0gaaHyuQf4H5pecrB/FYCT2sL9zAfy1Xyjou6L8X2W7YcLyBZCRtnq/zfAAAAAElFTkSuQmCC" /></a><br />本作品采用<a
-                    rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/">知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议</a>进行许可
+                        style="border-width:0;min-width:20%;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAllBMVEUAAAD///+rsapERER3d3eIiIjMzMzu7u4iIiKUmZO6v7rKzsoODg4RERFVVVUNDQ0NDg0PEA8zMzNLTEtbXltmZmZydnF9gn2AgICPkI+ZmZmqqqq7u7vFxsXIzMgNDQwZGRkgICAhISEkJSMnKCcuMC4xMzE5Ozk7PTtBQkFCQkJDQ0Nna2eGhoaHh4ezuLLGysbd3d1wVGpAAAAA4UlEQVR42q2T1xqCMAyFk7QsBQeKA9x7j/d/OSm22CpX0nzcpA1/T05aAOuBVkMAScQFHLnEwoCo2f1TnQIGoVMewjZEjVFN4GH1Ue1Cn2jWqwfsOOj6wDwGvotsl/c8lv7KIq1eLOsT0HMFHMIE/RZyHnlphryT9zyV+8WH5e8yQw3wnQvgAFxPTKUVi555SHR/lOfLMgVTeDlSfN+TaoUsiTyeIm+bCkHvCA2FUKG48LDtYBZBknsYP/G8NTw0gaaHyuQf4H5pecrB/FYCT2sL9zAfy1Xyjou6L8X2W7YcLyBZCRtnq/zfAAAAAElFTkSuQmCC" /></a><br /><span class="i18n" label="licenseP1">本作品采用</span><a
+                    rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" class="i18n" label="licenseP2">知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议</a><span class="i18n" label="licenseP3">进行许可</span>
             </div>
         </div>
     </div>
