@@ -173,28 +173,24 @@ function uiInit() {
 	var line = document.createElement("div")
 	line.className = "filterLine"
 	filter.appendChild(line)
-	var lined = document.createElement("div")
-	line.appendChild(lined)
 	for (i = 0; i < attributeNames.length; ++i) {
 		var btn = document.createElement("button")
 		btn.innerHTML = attributeNames[i].slice(0, attributeNames[i].search(/[{+-]/))
 		btn.className = "filter"
 		btn.ftype = 0
 		btn.onclick = equipFilter
-		lined.appendChild(btn)
+		line.appendChild(btn)
 	}
 	line = document.createElement("div")
 	line.className = "filterLine"
 	filter.appendChild(line)
-	lined = document.createElement("div")
-	line.appendChild(lined)
 	for (i = 0; i < posNames.length; ++i) {
 		btn = document.createElement("button")
 		btn.innerHTML = posNames[i]
 		btn.className = "filter"
 		btn.ftype = 1
 		btn.onclick = equipFilter
-		lined.appendChild(btn)
+		line.appendChild(btn)
 	}
 	var tablediv = document.createElement("div")
 	tablediv.id = "equipTable"

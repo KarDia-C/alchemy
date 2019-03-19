@@ -20,8 +20,7 @@ body{text-align:center;margin:0px;}
 .recommend table{border-collapse:collapse;}
 #equips hr{border:1px solid #361300;margin:0 0 1vw;}
 #equipFilter{height:18vw;background:#DBC2A3;line-height:9vw;text-align:-webkit-center;}
-.filterLine{overflow-x:auto;}
-.filterLine>div{height:min-content;width:max-content;}
+.filterLine{overflow-x:auto;white-space:nowrap;}
 #equips .filter{font-size:4vw;margin:1vw;}
 #equipTable{height:calc(100vh - 79.52vw);min-height:76.86vw;overflow-y:auto;}
 .infotable .recommend .item{width:10vw;height:10vw;}
