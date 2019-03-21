@@ -9,7 +9,7 @@ $(function(){
 		if (filter.attributes.ftype.value == "rarity") filter.onclick = function() {
 			--filterRules[0]
 			if (filterRules[0] == -1) filterRules[0] = 4 // 等史诗材料出现后要改成 = 5
-			this.className = "filter f" + filterRules[0]
+			this.className = "filter i18n f" + filterRules[0]
 			filterChanged()
 		}
 		else filter.onclick = function() {

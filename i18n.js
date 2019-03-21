@@ -17,6 +17,7 @@ function setLang(newlang) {
     updateStrings();
     setResult();
     genTables();
+    $("button.i18n.filter.f1:empty[ftype!=rarity]").click();
     filterChanged();
 }
 
