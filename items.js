@@ -79,6 +79,7 @@ $.get(document.domain.startsWith("diaoyf") ? "/recipe_v2/templets.php" : "temple
 
 function getItem(key) {
 	if (typeof key == "object") return key
+	if (key === undefined) return undefined
 	for (var i in materials) if (materials[i].type == key) return materials[i]
 	for (var i in equips) if (equips[i].type == key) return equips[i]
 	for (var i in materials) if (materials[i].name[lang] == key) return materials[i]
