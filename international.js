@@ -16,12 +16,8 @@ $(function() {
 		})
 	})
 	$("#twbtn")[0].onclick = show
-	$("#international").html('<p style="font-weight: bold; font-size: 6vw; margin: 2vw;">你遊台服準備開服啦！</p><p>#牧羊人之心 事前登錄啟動！<br>&#128051; 點擊前往預約：<a href="https://kardia.winyourgames.com/pre-register/" target="_blank">https://kardia.winyourgames.com/pre-register/</a><br>孵化超絕可愛的魔物蛋！<br>馴養個性十足的魔物娘！<br>踏上緊張又刺激的冒險之旅！<br>成為卡露蒂亞最強的魔物娘馴養師！<br>&#128051;即刻起！參與預約，不僅能獲得超多好禮，還有繁体中文版限定魔物娘等你來領走喔!<br>———————————————————<br>來自馴養師協會的隆重邀請</p><p><a href="https://www.taptap.com/app/156055" target="_blank">TapTap</a>的安卓預約需自備梯子哦</p>')
+	$("#international").html('<p style="font-weight: bold; font-size: 6vw; margin: 2vw;">你遊台服開服啦！！！</p><p>遊戲下載地址：<a href="https://kardia.winyourgames.com/">https://kardia.winyourgames.com/</a></p><p>歡迎關注以下渠道獲取第一手訊息 <br><a href="https://kardia.winyourgames.com/">❤官方網站</a><br><a href="https://www.facebook.com/KarDiaTW/">❤官方粉絲團</a><br>❤微信公眾號：牧羊人之心國際版<br><a href="https://forum.gamer.com.tw/A.php?bsn=34256">❤巴哈姆特論壇</a><br><a href="https://tieba.baidu.com/%E7%89%A7%E7%BE%8A%E4%BA%BA%E4%B9%8B%E5%BF%83%E5%8F%B0%E6%9C%8D">❤百度貼吧</a><br>❤牧羊人之心國際版1群：524148718<br>❤牧羊人之心國際版2群：104843612</p>')
 	$("#international a").click(function(e) {
 		e.stopPropagation()
 	})
-	if (!localStorage.twviewed) {
-		localStorage.twviewed = 1
-		setTimeout(show, 100)
-	}
 })
