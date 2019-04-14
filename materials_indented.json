@@ -64,7 +64,7 @@
   "type": "20064"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 0, 0, 0, 30, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "粉色粘液", "cht": "粉色粘液"},
   "rarity": 3,
@@ -72,7 +72,7 @@
   "type": "30001"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 8, 0, 0, 0, 10, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "黄金粘液", "cht": "黃金粘液"},
   "rarity": 2,
@@ -80,7 +80,7 @@
   "type": "30002"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "红色粘液", "cht": "紅色粘液"},
   "rarity": 1,
@@ -88,7 +88,7 @@
   "type": "30003"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "蓝色粘液", "cht": "藍色粘液"},
   "rarity": 1,
@@ -96,7 +96,7 @@
   "type": "30004"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "绿色粘液", "cht": "綠色粘液"},
   "rarity": 1,
@@ -104,7 +104,7 @@
   "type": "30005"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "黄色粘液", "cht": "黃色粘液"},
   "rarity": 1,
@@ -112,7 +112,7 @@
   "type": "30006"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 0, 5, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "阳葵花盘", "cht": "陽葵花盤"},
   "rarity": 1,
@@ -120,7 +120,7 @@
   "type": "30007"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "闪亮的鳞粉", "cht": "閃亮的鱗粉"},
   "rarity": 2,
@@ -128,7 +128,7 @@
   "type": "30008"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [2, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "稻草人草帽", "cht": "稻草人草帽"},
   "rarity": 1,
@@ -136,7 +136,7 @@
   "type": "30009"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "木材", "cht": "木材"},
   "rarity": 1,
@@ -144,7 +144,7 @@
   "type": "30010"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 6, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "鲜艳的羽毛", "cht": "鮮艷的羽毛"},
   "rarity": 1,
@@ -152,7 +152,7 @@
   "type": "30011"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [5, 0, 0, 0, 10, 0, 0, 2, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "幸运四叶花", "cht": "幸運四葉花"},
   "rarity": 2,
@@ -160,7 +160,7 @@
   "type": "30012"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [2, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "白萝卜", "cht": "白蘿蔔"},
   "rarity": 1,
@@ -168,7 +168,7 @@
   "type": "30013"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 2, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "蜗牛甲壳", "cht": "蝸牛甲殼"},
   "rarity": 1,
@@ -176,7 +176,7 @@
   "type": "30014"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 10, 0, 0, 0, 0, 6, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "珍珠", "cht": "珍珠"},
   "rarity": 2,
@@ -184,7 +184,7 @@
   "type": "30015"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "登龙剑", "cht": "登龍劍"},
   "rarity": 4,
@@ -192,7 +192,7 @@
   "type": "30016"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 15, 0, 0, 0, 0, 13, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "电珠", "cht": "電珠"},
   "rarity": 3,
@@ -200,7 +200,7 @@
   "type": "30017"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 16, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "白铁矿", "cht": "白鐵礦"},
   "rarity": 2,
@@ -208,7 +208,7 @@
   "type": "30018"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 8, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "铁矿", "cht": "鐵礦"},
   "rarity": 1,
@@ -216,7 +216,7 @@
   "type": "30019"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 24, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "魔铁矿", "cht": "魔鐵礦"},
   "rarity": 3,
@@ -224,7 +224,7 @@
   "type": "30020"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [2, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "紫色阳葵籽", "cht": "紫色陽葵籽"},
   "rarity": 1,
@@ -232,7 +232,7 @@
   "type": "30021"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [5, 0, 0, 0, 10, 0, 0, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "冰之花", "cht": "冰之花"},
   "rarity": 2,
@@ -240,7 +240,7 @@
   "type": "30022"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 15, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "替身娃娃", "cht": "替身娃娃"},
   "rarity": 2,
@@ -248,7 +248,7 @@
   "type": "30023"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 10, 0, 0, 0, 0, 20, 10, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "海洋之心", "cht": "海洋之心"},
   "rarity": 4,
@@ -256,7 +256,7 @@
   "type": "30024"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 10, 15, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "奇怪的手办", "cht": "奇怪的伴手禮"},
   "rarity": 3,
@@ -264,7 +264,7 @@
   "type": "30025"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [15, 2, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "平安符", "cht": "平安符"},
   "rarity": 2,
@@ -272,7 +272,7 @@
   "type": "30026"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 10, 0, 0, 0, 15, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "龙……珠？", "cht": "龍……珠？"},
   "rarity": 4,
@@ -280,7 +280,7 @@
   "type": "30027"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "柔软的绒毛", "cht": "柔軟的絨毛"},
   "rarity": 1,
@@ -288,7 +288,7 @@
   "type": "30028"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 30, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "奇怪的服饰", "cht": "奇怪的服飾"},
   "rarity": 3,
@@ -296,7 +296,7 @@
   "type": "30029"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "水手服", "cht": "水手服"},
   "rarity": 2,
@@ -304,7 +304,7 @@
   "type": "30030"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [5, 1, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "海带", "cht": "海帶"},
   "rarity": 1,
@@ -312,7 +312,7 @@
   "type": "30031"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 0, 0, 0, 15, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "粉红史莱姆结晶", "cht": "粉紅史萊姆結晶"},
   "rarity": 3,
@@ -320,7 +320,7 @@
   "type": "30032"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [5, 0, 0, 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "莲子", "cht": "蓮子"},
   "rarity": 2,
@@ -328,7 +328,7 @@
   "type": "30033"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "沉龙木", "cht": "沉龍木"},
   "rarity": 3,
@@ -336,7 +336,7 @@
   "type": "30034"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [10, 0, 0, 0, 15, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "翡翠之梦", "cht": "翡翠之夢"},
   "rarity": 4,
@@ -344,7 +344,7 @@
   "type": "30035"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "肉骨头", "cht": "肉骨頭"},
   "rarity": 1,
@@ -352,7 +352,7 @@
   "type": "30036"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 0, 0, 5, 0, 1, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "黑山羊的幼崽", "cht": "黑山羊的幼崽"},
   "rarity": 2,
@@ -360,7 +360,7 @@
   "type": "30037"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 10, 20, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "黄金史莱姆碎片", "cht": "黃金史萊姆碎片"},
   "rarity": 3,
@@ -368,7 +368,7 @@
   "type": "30042"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [5, 0, 0, 0, 0, 0, 5, 0, 0, 5, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "好喝的水", "cht": "好喝的水"},
   "rarity": 2,
@@ -376,7 +376,7 @@
   "type": "30043"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [15, 0, 5, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "战斗种族之证", "cht": "戰鬥種族之證"},
   "rarity": 2,
@@ -384,7 +384,7 @@
   "type": "30044"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 0, 0, 0, 3, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "油料", "cht": "油料"},
   "rarity": 1,
@@ -392,7 +392,7 @@
   "type": "30045"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "糖霜", "cht": "糖霜"},
   "rarity": 1,
@@ -400,7 +400,7 @@
   "type": "30046"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 20, 0, 0, 0, 0, 10, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "珍珠项链", "cht": "珍珠項鏈"},
   "rarity": 3,
@@ -408,7 +408,7 @@
   "type": "30047"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 0, 0, 0, 0, 10, 10, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "冰晶石", "cht": "冰晶石"},
   "rarity": 3,
@@ -416,7 +416,7 @@
   "type": "30048"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 0, 0, 0, 0, 15, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "可疑的果汁", "cht": "可疑的果汁"},
   "rarity": 3,
@@ -424,7 +424,7 @@
   "type": "30049"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "战争号角", "cht": "戰爭號角"},
   "rarity": 2,
@@ -432,7 +432,7 @@
   "type": "30050"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 10, 0, 0, 0, 0, 0, 30, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "黑暗圣书", "cht": "黑暗聖書"},
   "rarity": 4,
@@ -440,7 +440,7 @@
   "type": "30051"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "弹球", "cht": "彈球"},
   "rarity": 1,
@@ -448,7 +448,7 @@
   "type": "30052"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "厚实的木板", "cht": "厚實的木板"},
   "rarity": 2,
@@ -456,7 +456,7 @@
   "type": "30053"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "石块", "cht": "石塊"},
   "rarity": 1,
@@ -464,7 +464,7 @@
   "type": "30054"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 0, 0, 1, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "小鱼干", "cht": "小魚乾"},
   "rarity": 1,
@@ -472,7 +472,7 @@
   "type": "30063"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 0, 8, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "营养土", "cht": "營養土"},
   "rarity": 1,
@@ -536,7 +536,7 @@
   "type": "30079"
  },
  {
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "ingredients": [0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "荣耀之证", "cht": "榮耀之證"},
   "rarity": 3,

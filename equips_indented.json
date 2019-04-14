@@ -2,7 +2,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 50, 3, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [8, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -15,7 +15,7 @@
  {
   "alchemy": true,
   "attribs": [0, 10, 70, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {"30009": 3},
   "floating": true,
   "ingredients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -28,7 +28,7 @@
  {
   "alchemy": true,
   "attribs": [0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [10, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -41,7 +41,7 @@
  {
   "alchemy": true,
   "attribs": [6, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [10, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -54,7 +54,7 @@
  {
   "alchemy": true,
   "attribs": [6, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [12, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -67,7 +67,7 @@
  {
   "alchemy": true,
   "attribs": [0, 3, 60, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [8, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -80,7 +80,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 4, 6, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {"30012": 1},
   "floating": true,
   "ingredients": [0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -93,7 +93,7 @@
  {
   "alchemy": true,
   "attribs": [4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [3, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 5, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -106,7 +106,7 @@
  {
   "alchemy": true,
   "attribs": [0, 22, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 5, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -119,7 +119,7 @@
  {
   "alchemy": true,
   "attribs": [5, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -132,7 +132,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -145,7 +145,7 @@
  {
   "alchemy": true,
   "attribs": [6, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, [5, 20], [0, 20], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [6, 0, 13, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -158,7 +158,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 75, 0, 0, 0, 5, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 5, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -171,7 +171,7 @@
  {
   "alchemy": true,
   "attribs": [0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {"30014": 1},
   "floating": true,
   "ingredients": [0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -184,7 +184,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [8, 3], [0, 3], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {"30002": 1},
   "floating": true,
   "ingredients": [0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -197,7 +197,7 @@
  {
   "alchemy": true,
   "attribs": [18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [5, 2], [0, 2], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 0, 0, 0, 0, 15, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -210,7 +210,7 @@
  {
   "alchemy": true,
   "attribs": [2, 0, 0, 0, 0, 0, 0, 0, 0, 15, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 0, 0, 0, 5, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -223,7 +223,7 @@
  {
   "alchemy": true,
   "attribs": [14, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [6, 3], [0, 3], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {"30017": 1},
   "floating": true,
   "ingredients": [0, 10, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -236,7 +236,7 @@
  {
   "alchemy": true,
   "attribs": [14, 14, 14, 14, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {"30032": 1},
   "floating": true,
   "ingredients": [0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -249,7 +249,7 @@
  {
   "alchemy": true,
   "attribs": [19, 0, 0, 0, 7, 0, 0, 0, 0, 0, 3, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {"30051": 1},
   "floating": true,
   "ingredients": [0, 0, 0, 0, 0, 10, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -262,7 +262,7 @@
  {
   "alchemy": true,
   "attribs": [2, 0, 30, 0, 0, 0, 0, 0, 0, 10, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -275,7 +275,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [5, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -288,7 +288,7 @@
  {
   "alchemy": true,
   "attribs": [4, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [5, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -301,7 +301,7 @@
  {
   "alchemy": true,
   "attribs": [0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [12, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -314,7 +314,7 @@
  {
   "alchemy": true,
   "attribs": [0, 10, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 20],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [15, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -327,7 +327,7 @@
  {
   "alchemy": true,
   "attribs": [0, 2, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -340,7 +340,7 @@
  {
   "alchemy": true,
   "attribs": [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [5, 2], [0, 2], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [5, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -353,7 +353,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {"30045": 1},
   "floating": true,
   "ingredients": [5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -366,7 +366,7 @@
  {
   "alchemy": true,
   "attribs": [6, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -379,7 +379,7 @@
  {
   "alchemy": true,
   "attribs": [3, 0, 25, 3, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [5, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -392,7 +392,7 @@
  {
   "alchemy": true,
   "attribs": [5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 0, 8, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -405,7 +405,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 2, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 0, 0, 0, 0, 10, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -418,7 +418,7 @@
  {
   "alchemy": true,
   "attribs": [0, 10, 25, 0, 0, 0, 0, 0, 0, 0, 0, 130, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 20, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -431,7 +431,7 @@
  {
   "alchemy": true,
   "attribs": [5, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -444,7 +444,7 @@
  {
   "alchemy": true,
   "attribs": [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 3], [4, 3], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 5, 0, 0, 0, 0, 0, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -457,7 +457,7 @@
  {
   "alchemy": true,
   "attribs": [6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 15, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [10, 0, 0, 0, 0, 0, 5, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -470,7 +470,7 @@
  {
   "alchemy": true,
   "attribs": [6, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -483,7 +483,7 @@
  {
   "alchemy": true,
   "attribs": [4, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 2], [0, 2], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -496,7 +496,7 @@
  {
   "alchemy": true,
   "attribs": [10, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [18, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -509,7 +509,7 @@
  {
   "alchemy": true,
   "attribs": [16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [5, 20], [0, 20], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [10, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -522,7 +522,7 @@
  {
   "alchemy": true,
   "attribs": [0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [5, 2], [0, 2], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 15, 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -535,7 +535,7 @@
  {
   "alchemy": true,
   "attribs": [0, 15, 51, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {"30028": 2},
   "floating": true,
   "ingredients": [0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -548,7 +548,7 @@
  {
   "alchemy": true,
   "attribs": [12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [6, 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -561,7 +561,7 @@
  {
   "alchemy": true,
   "attribs": [2, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 10, 5, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -574,7 +574,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 30, 0, 0, 0, 0, 0, 0, 22, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -587,7 +587,7 @@
  {
   "alchemy": true,
   "attribs": [0, 11, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 5, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -600,7 +600,7 @@
  {
   "alchemy": true,
   "attribs": [0, 14, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -613,7 +613,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 35, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 0, 0, 0, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -626,7 +626,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 50, 0, 0, 0, 0, 0, 0, 20, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 0, 0, 0, 0, 0, 0, 5, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -639,7 +639,7 @@
  {
   "alchemy": true,
   "attribs": [10, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 15, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -652,7 +652,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 20],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 10, 0, 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -665,7 +665,7 @@
  {
   "alchemy": true,
   "attribs": [12, 0, 0, 0, 0, 12, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {"30033": 1},
   "floating": true,
   "ingredients": [0, 0, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -678,7 +678,7 @@
  {
   "alchemy": true,
   "attribs": [14, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 20, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -691,7 +691,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, [5, 50], [0, 50], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 20, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -704,7 +704,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 20],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 30, 0, 0, 5, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -717,7 +717,7 @@
  {
   "alchemy": true,
   "attribs": [34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 60, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -730,7 +730,7 @@
  {
   "alchemy": true,
   "attribs": [0, 65, 120, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 50, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -743,7 +743,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 300, 0, 0, 0, 3, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 40, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -756,7 +756,7 @@
  {
   "alchemy": true,
   "attribs": [0, 20, 150, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 60, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 90, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -769,7 +769,7 @@
  {
   "alchemy": true,
   "attribs": [10, 0, 0, 10, 0, 0, 0, 0, 0, 0, 6, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 20, 0, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -782,7 +782,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 310, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 40],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 30, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -795,7 +795,7 @@
  {
   "alchemy": true,
   "attribs": [2, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [5, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -808,7 +808,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 160, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [4, 2], [0, 2], [4, 2], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {"30048": 1},
   "floating": true,
   "ingredients": [0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -821,7 +821,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -834,7 +834,7 @@
  {
   "alchemy": true,
   "attribs": [0, 20, 90, 5, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [15, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -847,7 +847,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 5, 0, 2, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 5, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -860,7 +860,7 @@
  {
   "alchemy": true,
   "attribs": [0, 10, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 10, 30, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -873,7 +873,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 0, 0, 0, 5, 1, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {"30011": 1, "30008": 1},
   "floating": true,
   "ingredients": [0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -886,7 +886,7 @@
  {
   "alchemy": true,
   "attribs": [0, 39, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 25, 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -899,7 +899,7 @@
  {
   "alchemy": true,
   "attribs": [0, 25, 80, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 41, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -912,7 +912,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 0, 0, 5, 0, 0, 0, 10, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {"30050": 1},
   "floating": true,
   "ingredients": [0, 0, 15, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -925,7 +925,7 @@
  {
   "alchemy": true,
   "attribs": [21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 40, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -938,7 +938,7 @@
  {
   "alchemy": true,
   "attribs": [10, 0, 0, 4, 0, 6, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -951,7 +951,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [5, 2], [0, 2], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {"30008": 1},
   "floating": true,
   "ingredients": [0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -964,7 +964,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 100, 0, 0, 0, 5, 1, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {"30024": 1},
   "floating": true,
   "ingredients": [0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -977,7 +977,7 @@
  {
   "alchemy": true,
   "attribs": [4, 0, 120, 5, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 15, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -990,7 +990,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 25, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -1003,7 +1003,7 @@
  {
   "alchemy": true,
   "attribs": [25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 25, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 40, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -1016,7 +1016,7 @@
  {
   "alchemy": true,
   "attribs": [10, 0, 0, 6, 4, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 20, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -1029,7 +1029,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [5, 2], [0, 2], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [5, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -1042,7 +1042,7 @@
  {
   "alchemy": true,
   "attribs": [7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [5, 10], [0, 10], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [5, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -1055,7 +1055,7 @@
  {
   "alchemy": true,
   "attribs": [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [5, 25], [0, 25], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 5, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -1068,7 +1068,7 @@
  {
   "alchemy": true,
   "attribs": [10, 0, 40, 0, 0, 0, 0, 0, 0, 10, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [20, 0, 0, 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -1081,7 +1081,7 @@
  {
   "alchemy": true,
   "attribs": [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [5, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -1094,7 +1094,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 2, 0, 0, 4, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [5, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -1107,7 +1107,7 @@
  {
   "alchemy": true,
   "attribs": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 20], [7, 20], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 0, 5, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -1120,7 +1120,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [5, 2], [0, 2], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 5, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -1133,7 +1133,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 20, 4, 5, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 20, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -1146,7 +1146,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 2, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 5, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -1159,7 +1159,7 @@
  {
   "alchemy": true,
   "attribs": [0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [20, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -1172,7 +1172,7 @@
  {
   "alchemy": true,
   "attribs": [0, 8, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "core": {},
   "floating": true,
   "ingredients": [0, 0, 0, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -1847,7 +1847,7 @@
  {
   "alchemy": false,
   "attribs": [0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "floating": true,
   "name": {"chs": "[装扮]倒立的雪糕", "cht": "[裝扮]倒立的雪糕"},
   "position": 4,
@@ -1858,7 +1858,7 @@
  {
   "alchemy": false,
   "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [3, 2], [0, 2], [0, 2], [0, 2], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "floating": true,
   "name": {"chs": "[装扮]独角兽之角", "cht": "[裝扮]獨角獸之角"},
   "position": 4,
@@ -1891,7 +1891,7 @@
  {
   "alchemy": false,
   "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "floating": true,
   "name": {"chs": "[装扮]恶魔尾巴", "cht": "[裝扮]惡魔尾巴"},
   "position": 5,
@@ -1913,7 +1913,7 @@
  {
   "alchemy": false,
   "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 5],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "floating": true,
   "name": {"chs": "[装扮]指南针挂件", "cht": "[裝扮]指南針掛件"},
   "position": 5,
@@ -1935,7 +1935,7 @@
  {
   "alchemy": false,
   "attribs": [0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "floating": true,
   "name": {"chs": "[装扮]飘带头饰", "cht": "[裝扮]飄帶頭飾"},
   "position": 4,
@@ -2100,7 +2100,7 @@
  {
   "alchemy": false,
   "attribs": [0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "floating": true,
   "name": {"chs": "[装扮]草帽", "cht": "[裝扮]草帽"},
   "position": 4,
@@ -2133,7 +2133,7 @@
  {
   "alchemy": false,
   "attribs": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "floating": false,
   "name": {"chs": "[装扮]金色徽章", "cht": "[裝扮]金色徽章"},
   "position": 5,
@@ -2144,7 +2144,7 @@
  {
   "alchemy": false,
   "attribs": [5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "floating": true,
   "name": {"chs": "[装扮]渣渣布林头套", "cht": "[裝扮]渣渣布林頭套"},
   "position": 4,
@@ -2188,7 +2188,7 @@
  {
   "alchemy": false,
   "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "floating": true,
   "name": {"chs": "[装扮]爆炸头套", "cht": "[裝扮]爆炸頭套"},
   "position": 4,
@@ -2232,7 +2232,7 @@
  {
   "alchemy": false,
   "attribs": [0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
-  "available": ["cht", "chs"],
+  "available": ["chs", "cht"],
   "floating": true,
   "name": {"chs": "[装扮]狐狸面具", "cht": "[裝扮]狐狸面具"},
   "position": 4,
@@ -2759,6 +2759,72 @@
   "position": 5,
   "rarity": 2,
   "type": "60104",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "[装扮]灰羽徽章"},
+  "position": 5,
+  "rarity": 1,
+  "type": "60105",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "[装扮]白羽徽章"},
+  "position": 5,
+  "rarity": 2,
+  "type": "60106",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "[装扮]翎羽徽章"},
+  "position": 5,
+  "rarity": 2,
+  "type": "60107",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "[装扮]片翼徽章"},
+  "position": 5,
+  "rarity": 3,
+  "type": "60108",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "[装扮]等翼徽章"},
+  "position": 5,
+  "rarity": 3,
+  "type": "60109",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "[装扮]祈翼徽章"},
+  "position": 5,
+  "rarity": 4,
+  "type": "60110",
   "weight": 5
  },
  {
