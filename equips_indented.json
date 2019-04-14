@@ -2972,6 +2972,28 @@
  },
  {
   "alchemy": false,
+  "attribs": [3, 0, 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": true,
+  "name": {"chs": "[装扮]钢铁翅膀"},
+  "position": 5,
+  "rarity": 2,
+  "type": "60128",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [3, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": true,
+  "name": {"chs": "[装扮]宝物之门"},
+  "position": 5,
+  "rarity": 2,
+  "type": "60130",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
   "attribs": [0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "available": ["cht"],
   "floating": false,
@@ -3059,6 +3081,72 @@
   "weight": 5
  },
  {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [2, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": true,
+  "name": {"chs": "[装扮]三联炮塔"},
+  "position": 4,
+  "rarity": 1,
+  "type": "60140",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": true,
+  "name": {"chs": "[装扮]飞行甲板"},
+  "position": 5,
+  "rarity": 1,
+  "type": "60141",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": true,
+  "name": {"chs": "[装扮]红星海军帽"},
+  "position": 4,
+  "rarity": 1,
+  "type": "60142",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": true,
+  "name": {"chs": "[装扮]碧蓝海军帽"},
+  "position": 4,
+  "rarity": 1,
+  "type": "60143",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": true,
+  "name": {"chs": "[装扮]战术耳机"},
+  "position": 4,
+  "rarity": 1,
+  "type": "60144",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": true,
+  "name": {"chs": "[装扮]舰长帽"},
+  "position": 4,
+  "rarity": 1,
+  "type": "60145",
+  "weight": 5
+ },
+ {
   "alchemy": true,
   "attribs": [10, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "available": ["chs"],
@@ -3069,6 +3157,17 @@
   "position": 3,
   "rarity": 3,
   "type": "60146",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": true,
+  "name": {"chs": "[装扮]巨臂机炮"},
+  "position": 5,
+  "rarity": 1,
+  "type": "60147",
   "weight": 5
  },
  {
@@ -3083,6 +3182,50 @@
   "rarity": 3,
   "type": "60148",
   "weight": 10
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": true,
+  "name": {"chs": "[装扮]导弹发射井"},
+  "position": 5,
+  "rarity": 1,
+  "type": "60149",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "[装扮]缴获的深海武器"},
+  "position": 4,
+  "rarity": 4,
+  "type": "60150",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": true,
+  "name": {"chs": "[装扮]玫瑰纱裙"},
+  "position": 5,
+  "rarity": 1,
+  "type": "60151",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": true,
+  "name": {"chs": "[装扮]情人节发箍"},
+  "position": 4,
+  "rarity": 1,
+  "type": "60152",
+  "weight": 5
  },
  {
   "alchemy": false,
