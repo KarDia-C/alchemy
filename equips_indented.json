@@ -1802,6 +1802,17 @@
  },
  {
   "alchemy": false,
+  "attribs": [0, 12, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["cht"],
+  "floating": true,
+  "name": {"cht": "托爾版馬克杯"},
+  "position": 1,
+  "rarity": 2,
+  "type": "50156",
+  "weight": 40
+ },
+ {
+  "alchemy": false,
   "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "available": ["chs"],
   "floating": false,
@@ -3302,5 +3313,16 @@
   "position": 4,
   "rarity": 1,
   "type": "60159",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["cht"],
+  "floating": false,
+  "name": {"cht": "[裝扮]幼龍咆哮頭飾"},
+  "position": 4,
+  "rarity": 1,
+  "type": "60162",
   "weight": 5
  }
