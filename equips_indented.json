@@ -3027,17 +3027,6 @@
  },
  {
   "alchemy": false,
-  "attribs": [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
-  "available": ["cht"],
-  "floating": false,
-  "name": {"cht": "[裝扮]刀劍掛飾"},
-  "position": 5,
-  "rarity": 1,
-  "type": "60133",
-  "weight": 5
- },
- {
-  "alchemy": false,
   "attribs": [0, 0, 50, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "available": ["cht"],
   "floating": false,
@@ -3302,17 +3291,6 @@
   "position": 4,
   "rarity": 1,
   "type": "60158",
-  "weight": 5
- },
- {
-  "alchemy": false,
-  "attribs": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
-  "available": ["cht"],
-  "floating": false,
-  "name": {"cht": "[裝扮]櫻花頭飾"},
-  "position": 4,
-  "rarity": 1,
-  "type": "60159",
   "weight": 5
  },
  {
