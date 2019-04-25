@@ -3366,12 +3366,10 @@
   "weight": 5
  },
  {
-  "alchemy": true,
+  "alchemy": false,
   "attribs": [0, 15, 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "available": ["chs"],
-  "core": {},
   "floating": true,
-  "ingredients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   "name": {"chs": "棱镜宝石"},
   "position": 5,
   "rarity": 4,
