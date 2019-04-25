@@ -1812,6 +1812,45 @@
   "weight": 40
  },
  {
+  "alchemy": true,
+  "attribs": [0, 0, 50, 0, 0, 5, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "core": {},
+  "floating": true,
+  "ingredients": [0, 17, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "name": {"chs": "夜色斗篷"},
+  "position": 2,
+  "rarity": 2,
+  "type": "50158",
+  "weight": 5
+ },
+ {
+  "alchemy": true,
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 3, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "core": {"30093": 1},
+  "floating": true,
+  "ingredients": [0, 5, 0, 0, 18, 0, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "name": {"chs": "暮色花环"},
+  "position": 3,
+  "rarity": 3,
+  "type": "50159",
+  "weight": 5
+ },
+ {
+  "alchemy": true,
+  "attribs": [0, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [5, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "core": {"30092": 1},
+  "floating": true,
+  "ingredients": [25, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "name": {"chs": "桃木剑"},
+  "position": 1,
+  "rarity": 3,
+  "type": "50160",
+  "weight": 5
+ },
+ {
   "alchemy": false,
   "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "available": ["chs"],
@@ -3295,6 +3334,17 @@
  },
  {
   "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["cht"],
+  "floating": false,
+  "name": {"cht": "[裝扮]櫻花頭飾"},
+  "position": 4,
+  "rarity": 1,
+  "type": "60159",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
   "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "available": ["cht"],
   "floating": false,
@@ -3302,5 +3352,51 @@
   "position": 4,
   "rarity": 1,
   "type": "60162",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["cht"],
+  "floating": false,
+  "name": {"cht": "[裝扮]異世界手把"},
+  "position": 5,
+  "rarity": 1,
+  "type": "60163",
+  "weight": 5
+ },
+ {
+  "alchemy": true,
+  "attribs": [0, 15, 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "core": {},
+  "floating": true,
+  "ingredients": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "name": {"chs": "棱镜宝石"},
+  "position": 5,
+  "rarity": 4,
+  "type": "60164",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "[装扮]周年庆金冠"},
+  "position": 4,
+  "rarity": 1,
+  "type": "60165",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "[装扮]周年庆勋章"},
+  "position": 5,
+  "rarity": 1,
+  "type": "60166",
   "weight": 5
  }
