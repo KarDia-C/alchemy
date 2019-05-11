@@ -1813,6 +1813,19 @@
  },
  {
   "alchemy": true,
+  "attribs": [15, 0, 0, 0, 3, 0, 2, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "core": {"30098": 1},
+  "floating": true,
+  "ingredients": [0, 0, 0, 28, 0, 0, 0, 5, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "name": {"chs": "多彩之剑"},
+  "position": 1,
+  "rarity": 3,
+  "type": "50157",
+  "weight": 5
+ },
+ {
+  "alchemy": true,
   "attribs": [0, 0, 50, 0, 0, 5, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "available": ["chs"],
   "core": {},
@@ -1848,6 +1861,19 @@
   "position": 1,
   "rarity": 3,
   "type": "50160",
+  "weight": 5
+ },
+ {
+  "alchemy": true,
+  "attribs": [0, 0, 0, 0, 8, 0, 0, 0, 0, 50, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "core": {"30094": 1},
+  "floating": true,
+  "ingredients": [0, 0, 25, 0, 0, 5, 0, 8, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "name": {"chs": "恶魔指节"},
+  "position": 3,
+  "rarity": 4,
+  "type": "50161",
   "weight": 5
  },
  {
@@ -3341,6 +3367,17 @@
   "position": 4,
   "rarity": 1,
   "type": "60159",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["cht"],
+  "floating": false,
+  "name": {"cht": "[裝扮]？？？"},
+  "position": 4,
+  "rarity": 1,
+  "type": "60160",
   "weight": 5
  },
  {
