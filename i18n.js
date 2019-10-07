@@ -22,9 +22,7 @@ function setLang(newlang) {
 }
 
 function updateImg(oldlang, newlang) {
-    for (var img of $("img.i18n").toArray()) {
-        img.src = img.src.replace(oldlang, newlang);
-    }
+    $(document.body).removeClass(oldlang).addClass(newlang);
 }
 
 function updateStrings() {
@@ -44,8 +42,8 @@ onhashchange = function() {
 
 $(function() {
     updateImg("chs", lang);
-    $("#server").click(function() {
-        if ($("#server img").attr("src").indexOf("chs") != -1) location.hash = "#cht";
+    $(".server").click(function() {
+        if ($(document.body).hasClass('chs')) location.hash = "#cht";
         else location.hash = "#chs";
     });
 })

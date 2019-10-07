@@ -6,7 +6,7 @@ $(function(){
 	var $info = $(".info")
 	if ($info.length > 0) infodiv = $info[0]
 	else {
-		var main = $("#main")[0]
+		var main = document.body
 		infodiv = document.createElement("div")
 		infodiv.className = "info"
 		main.insertBefore(infodiv, main.children[0])

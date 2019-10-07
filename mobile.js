@@ -12,8 +12,9 @@ function resetLayout() {
 		$("#sc .item").css("height", "18.4vw")
 	}
 }
-window.addEventListener("resize", resetLayout)
-$(resetLayout)
+// window.addEventListener("resize", resetLayout)
+// $(resetLayout)
+// I didn't remember what is this
 
 var selected = []
 var showing = false
@@ -90,7 +91,7 @@ function setResult(result) {
 	table.innerHTML = ""
 	for (var i = 0; i < result.length; ++i) table.appendChild(getResultTRNode(result[i]))
 	var state = $("#state")[0]
-	var statestr = getString("time") + "：" + result.hour + "h<br/>" + getString("cost") + "：<img src=\"gold.png\" id=\"gold\" />" + result.gold + "<hr/>"
+	var statestr = getString("time") + "：" + result.hour + "h<br/>" + getString("cost") + "：<div class=\"gold\"></div>" + result.gold + "<hr/>"
 	for (var i = 0; i < ingredientNames[lang].length; ++i) if (result.ingredients[i] != 0) {
 		statestr += ingredientNames[lang][i] + "x" + result.ingredients[i] + "<br/>"
 	}
@@ -126,13 +127,14 @@ $(function(){
 		$items[i].count = i
 		$items[i].onclick = clickMaterial
 	}
-	document.body.ontouchstart = function() {
+	document.body.ontouchstart = document.body.onmousedown = document.body.onwheel = function() {
 		hideInfo()
 		showingInfo = false
 	}
 })
 
 function uiInit() {
+	if (navigator.userAgent.indexOf('KarDia') != -1) $('.recommend').remove()
 	setResult()
 	filterChanged()
 	genTables()
@@ -164,7 +166,7 @@ function genTables() {
 		var img = tr[0].insertCell()
 		img.appendChild(materials[i].getImgNode())
 		img.innerHTML += "<br>" + materials[i].name[lang]
-		if (materials[i].name[lang].length > 6) img.style.fontSize = "3vw"
+		if (materials[i].name[lang].length > 6) img.style.fontSize = "22px"
 		img.rowSpan = rowCount
 		for (j = 0; j < ingredientNames[lang].length || j % colCount != 0; ++j) tr[parseInt(j / colCount)].innerHTML += "<td>" + (j < ingredientNames[lang].length ? materials[i].ingredients[j] : '') + "</td>"
 		tr[0].innerHTML += "<td rowspan='" + rowCount + "'><div class='source'>" + materials[i].sources[lang].replace(/\n/g, "<br>") + "</div></td>"
@@ -216,16 +218,16 @@ function genTables() {
 		img = tr.insertCell()
 		img.appendChild(equips[i].getImgNode())
 		img.innerHTML += "<br>" + equips[i].name[lang]
-		if (equips[i].name[lang].length > 6) img.style.fontSize = "3vw"
+		if (equips[i].name[lang].length > 6) img.style.fontSize = "22px"
 		tr.innerHTML += "<td>" + equips[i].getDetailDesc().replace(/\n/g, "<br>") + "</td><td>" + posNames[lang][equips[i].position - 1] + "</td>"
-		var recommend = document.createElement("td")
-		tr.appendChild(recommend)
+		var templet = document.createElement("td")
+		tr.appendChild(templet)
 		if (!equips[i].alchemy) continue
 		if (templets[equips[i].type] != undefined) {
 			var tmp = templets[equips[i].type]
 			var p = document.createElement("div")
-			p.className = "recommend"
-			recommend.appendChild(p)
+			p.className = "templet"
+			templet.appendChild(p)
 			for (j = 0; j < tmp.length; ++j) {
 				table = document.createElement("table")
 				table.cellPadding = "0"
@@ -236,7 +238,7 @@ function genTables() {
 					if (tmp[j][k] != undefined) foo.appendChild(getItem(tmp[j][k]).getImgNode())
 				}
 				var result = simulate(tmp[j])
-				tr[0].insertCell().innerHTML = "<img class='gold' src='gold.png' />" + result.gold
+				tr[0].insertCell().innerHTML = "<div class='gold'></div>" + result.gold
 				for (k = 0; k < result.length; ++k) if (result[k].type == equips[i].type) {
 					tr[1].insertCell().innerHTML = result[k].prstr
 					break
@@ -249,7 +251,7 @@ function genTables() {
 }
 
 function filterChanged() {
-	var sl = $("#sl")[0]
+	var sl = $("#selector-list")[0]
 	sl.innerHTML = ""
 	var filtered = filter(materials)
 	for (var i = 0; i < filtered.length; ++i) {
