@@ -20,4 +20,7 @@ $(function() {
 	$("#international a").click(function(e) {
 		e.stopPropagation()
 	})
+	window.onload = function() {
+		$("#twbtn").html('<img src="international.gif" style="width: 324px;" />')
+	}
 })
