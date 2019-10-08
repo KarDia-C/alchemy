@@ -145,19 +145,21 @@ function genTables() {
 	var table = document.createElement("table")
 	var thead = table.createTHead()
 	var tbody = table.createTBody()
-	table.border = "1"
+	table.border = "2"
 	table.cellSpacing = "0"
 	table.className = "infotable"
 	var colCount = 5
 	var rowCount = Math.ceil(ingredientNames[lang].length / colCount)
 	var tr = []
 	for (var i = 0; i < rowCount; ++i) tr.push(thead.insertRow())
-	tr[0].innerHTML = "<th style='width:15%;' rowspan='" + rowCount + "'></th>"
+	tr[0].innerHTML = "<th style='width:15%;' rowspan='" + rowCount + "'>&nbsp;</th>"
 	for (i = 0; i < ingredientNames[lang].length || i % colCount != 0; ++i) tr[parseInt(i / colCount)].innerHTML += "<th style='width:10%;'>" + (i < ingredientNames[lang].length ? ingredientNames[lang][i] : '') +  "</th>"
 	tr[0].innerHTML += "<th style='width:20%;' rowspan='" + rowCount + "'>"+getString("source")+"</th>"
-	var foo = table.cloneNode()
-	foo.innerHTML = table.innerHTML
+	var foo = document.createElement('div')
 	foo.classList.add("forzen")
+	var bar = table.cloneNode()
+	bar.innerHTML = table.innerHTML
+	foo.appendChild(bar)
 	$("#materials").html('').append(foo).append(table)
 	for (i = 0; i < materials.length; ++i) {
 		if (materials[i].available.indexOf(lang) == -1) continue
@@ -202,13 +204,15 @@ function genTables() {
 	table = document.createElement("table")
 	thead = table.createTHead()
 	tbody = table.createTBody()
-	table.border = "1"
+	table.border = "2"
 	table.cellSpacing = "0"
 	table.className = "infotable"
-	thead.innerHTML = "<tr><th style='width:15%;'></th><th style='width:42%;'>"+getString("attrib")+"</th><th style='width:10%;'>"+getString("part")+"</th><th style='width:33%;'>"+getString("recommend")+"</th></tr>"
-	foo = table.cloneNode()
-	foo.innerHTML = table.innerHTML
+	thead.innerHTML = "<tr><th style='width:15%;'>&nbsp;</th><th style='width:42%;'>"+getString("attrib")+"</th><th style='width:10%;'>"+getString("part")+"</th><th style='width:33%;'>"+getString("recommend")+"</th></tr>"
+	foo = document.createElement('div')
 	foo.classList.add("forzen")
+	bar = table.cloneNode()
+	bar.innerHTML = table.innerHTML
+	foo.appendChild(bar)
 	tablediv.appendChild(foo)
 	tablediv.appendChild(table)
 	for (i = 0; i < equips.length; ++i) {
