@@ -5,7 +5,7 @@ var rarityWeights = [0, 1, 2, 3, 4, 5]
 
 function simulate(items) {
 	var input = arguments[0] instanceof Array ? items : arguments
-	var ingredients = new Array(attributeNames[lang].length)
+	var ingredients = new Array(ingredientNames[lang].length)
 	ingredients.fill(0)
 	var material = []
 	var sum = 0
