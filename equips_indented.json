@@ -4004,17 +4004,6 @@
  },
  {
   "alchemy": false,
-  "attribs": [15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
-  "available": ["chs"],
-  "floating": false,
-  "name": {"chs": "[装扮]数字温度计"},
-  "position": 4,
-  "rarity": 2,
-  "type": "60181",
-  "weight": 5
- },
- {
-  "alchemy": false,
   "attribs": [0, 0, 45, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "available": ["chs"],
   "floating": true,
