@@ -14,7 +14,7 @@ function getImgNode(value) {
 	foo.obj = this
 	var img = document.createElement("img")
 	img.classList = "bg"
-	img.src = "https://cdn.jsdelivr.net/gh/KarDia-C/kardia-c.github.io@2.2.0/img/item/item_" + this.type + "_L.png";
+	img.src = "https://cdn.jsdelivr.net/gh/KarDia-C/kardia-c.github.io@2.4/img/item/item_" + this.type + "_L.png";
 	foo.appendChild(img)
 	if (value > 0) { // undefined > 0 = false
 		var bar = document.createElement("span")
