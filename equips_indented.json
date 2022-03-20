@@ -3387,6 +3387,89 @@
   "weight": 5
  },
  {
+  "alchemy": true,
+  "attribs": [0, 0, 300, 10, 0, 5, 0, 0, 0, 0, 5, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "core": {},
+  "floating": true,
+  "ingredients": [0, 12, 12, 0, 12, 0, 0, 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0],
+  "name": {"chs": "医疗箱"},
+  "position": 2,
+  "rarity": 4,
+  "type": "50294",
+  "weight": 5
+ },
+ {
+  "alchemy": true,
+  "attribs": [0, 0, 30, 10, 0, 0, 0, 0, 0, 20, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "core": {},
+  "floating": true,
+  "ingredients": [15, 18, 0, 0, 0, 0, 5, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0],
+  "name": {"chs": "医用绷带"},
+  "position": 3,
+  "rarity": 2,
+  "type": "50295",
+  "weight": 5
+ },
+ {
+  "alchemy": true,
+  "attribs": [15, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [10, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "core": {},
+  "floating": true,
+  "ingredients": [0, 12, 38, 0, 0, 0, 7, 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0],
+  "name": {"chs": "治疗锤"},
+  "position": 1,
+  "rarity": 3,
+  "type": "50296",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 10, 0, 0, 8, 0, 0, 0, 5, 0, [10, 120], [0, 120], [0, 2], [0, 2], [0, 2], [6, 2], 80, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "瘟疫之心"},
+  "position": 3,
+  "rarity": 5,
+  "type": "50297",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 5, 0, 0, 5, 0, 0, 0, 3, 0, [6, 70], [0, 70], [0, 2], [0, 2], [0, 2], [3, 2], 40, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "死亡吊坠"},
+  "position": 3,
+  "rarity": 4,
+  "type": "50298",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 5, 0, 0, 5, 0, 0, 0, 0, 0, [6, 40], [0, 40], [0, 2], [0, 2], [0, 2], [0, 2], 40, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "感染吊坠"},
+  "position": 3,
+  "rarity": 3,
+  "type": "50299",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 5, 0, 0, 3, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 35, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "骷髅吊坠"},
+  "position": 3,
+  "rarity": 2,
+  "type": "50300",
+  "weight": 5
+ },
+ {
   "alchemy": false,
   "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 17, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "available": ["chs"],
@@ -6630,5 +6713,49 @@
   "position": 5,
   "rarity": 4,
   "type": "60353",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": true,
+  "name": {"chs": "[装扮]护目镜"},
+  "position": 4,
+  "rarity": 2,
+  "type": "60354",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": true,
+  "name": {"chs": "[装扮]点滴瓶"},
+  "position": 5,
+  "rarity": 2,
+  "type": "60355",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 10],
+  "available": ["chs"],
+  "floating": true,
+  "name": {"chs": "[装扮]护士帽"},
+  "position": 4,
+  "rarity": 2,
+  "type": "60356",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": true,
+  "name": {"chs": "[装扮]氧气面罩"},
+  "position": 4,
+  "rarity": 2,
+  "type": "60357",
   "weight": 5
  }
