@@ -3281,6 +3281,19 @@
  },
  {
   "alchemy": true,
+  "attribs": [10, 0, 0, 0, 0, 10, 0, 0, 0, 0, 5, 0, [0, 0], [0, 0], [5, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "core": {"30176": 1, "30174": 1},
+  "floating": true,
+  "ingredients": [10, 0, 8, 5, 0, 0, 0, 10, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "name": {"chs": "奇异游吟诗人之琴"},
+  "position": 1,
+  "rarity": 4,
+  "type": "50284",
+  "weight": 5
+ },
+ {
+  "alchemy": true,
   "attribs": [0, 0, 0, 10, 0, 0, 10, 1, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 20],
   "available": ["chs"],
   "core": {"30176": 1, "30174": 1},
@@ -3467,6 +3480,39 @@
   "position": 3,
   "rarity": 2,
   "type": "50300",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [5, 0, 0, 0, 0, 3, 3, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 70, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "白蜡树之枝"},
+  "position": 1,
+  "rarity": 3,
+  "type": "50301",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [10, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 100, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "流星之枪"},
+  "position": 1,
+  "rarity": 4,
+  "type": "50302",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [15, 0, 0, 0, 3, 3, 6, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 150, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "冈格尼尔之誓"},
+  "position": 1,
+  "rarity": 5,
+  "type": "50303",
   "weight": 5
  },
  {
@@ -6757,5 +6803,82 @@
   "position": 4,
   "rarity": 2,
   "type": "60357",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "[装扮]胡萝卜诱饵"},
+  "position": 5,
+  "rarity": 2,
+  "type": "60358",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "[装扮]狗狗面具"},
+  "position": 4,
+  "rarity": 2,
+  "type": "60359",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "[装扮]咸鱼抱枕"},
+  "position": 5,
+  "rarity": 2,
+  "type": "60360",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 2, 3, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "[装扮]小丑面具"},
+  "position": 4,
+  "rarity": 2,
+  "type": "60361",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 6],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "[装扮]周年庆帽子"},
+  "position": 4,
+  "rarity": 1,
+  "type": "60363",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "[装扮]四周年庆勋章"},
+  "position": 5,
+  "rarity": 1,
+  "type": "60364",
+  "weight": 5
+ },
+ {
+  "alchemy": false,
+  "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 10],
+  "available": ["chs"],
+  "floating": false,
+  "name": {"chs": "[装扮]棉花糖发卡"},
+  "position": 4,
+  "rarity": 5,
+  "type": "60365",
   "weight": 5
  }
