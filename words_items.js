@@ -15,6 +15,7 @@ function getImgNode(value) {
 	var img = document.createElement("span")
 	img.classList = "bg"
 	if(this.name.chs)img.innerHTML = this.name.chs
+	img.style.fontSize = "3vw"
 	foo.appendChild(img)
 	if (value > 0) { // undefined > 0 = false
 		var bar = document.createElement("span")

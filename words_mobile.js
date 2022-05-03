@@ -163,6 +163,7 @@ function genTables() {
 		for (var j = 0; j < rowCount; ++j) tr.push(tbody.insertRow())
 		var img = tr[0].insertCell()
 		// img.appendChild(materials[i].getImgNode())
+		img.style.fontSize = "3vw"
 		img.innerHTML += "<br>" + materials[i].name[lang]
 		if (materials[i].name[lang].length > 6) img.style.fontSize = "3vw"
 		img.rowSpan = rowCount
