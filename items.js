@@ -12,10 +12,14 @@ function getImgNode(value) {
 	foo.oncontextmenu = longClick
 	foo.ontouchmove = moveIn
 	foo.obj = this
+	/*
 	var img = document.createElement("img")
 	img.classList = "bg"
 	// img.src="./item/item_" + this.type + "_L.png";
-	img.src = "https://cdn.jsdelivr.net/gh/KarDia-C/kardia-c.github.io@2.43/img/item/item_" + this.type + "_L.png";
+	*/
+	var img = document.createElement("div")
+	// img.style.background = "url(/img/item/item_" + this.type + "_L.png)";
+	img.classList = "icon-item_" + this.type + "_L";
 	if(this.name.chs)img.alt=this.name.chs
 	foo.appendChild(img)
 	if (value > 0) { // undefined > 0 = false

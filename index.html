@@ -7,71 +7,56 @@
     <title>卡库拉拉兹巴魔法棒 - 卡露蒂亚城乡结合部</title>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119962177-1"></script>
     <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'UA-119962177-1');</script>
-    <script src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/js/jquery-1.11.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/i18n.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/items.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/simulator.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/mobile.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/filter.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/tabcontrol.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/info.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/803.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/international.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/styles.css" />
-    <link type="favicon" rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/favicon.ico" />
-    <style>
-        .tag{
-            /* width:41.39vw; */
-            position:absolute;
-            left:4vw;
-            top:23vw;
-            font-weight:700;
-            font-size:4vw;
-            color:rgb(255,242,131); 
-            text-shadow: 
-                rgb(144,126,78) 0.5vw 0 0, 
-                rgb(144,126,78) 0 0.5vw 0
-                , rgb(144,126,78) -0.5vw 0 0, 
-                rgb(144,126,78) 0 -0.5vw 0; 
-        }
-    </style>
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script src="i18n.js"></script>
+    <script src="items.js"></script>
+    <script src="simulator.js"></script>
+    <script src="mobile.js"></script>
+    <script src="filter.js"></script>
+    <script src="tabcontrol.js"></script>
+    <script src="info.js"></script>
+    <script src="803.js"></script>
+    <!-- <script src="international.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="items.css" />
+    <link type="favicon" rel="shortcut icon" href="/favicon.ico" />
 </head>
 
 <body>
     <div class="unselectable" onselectstart="return false;" unselectable="on" id="main">
         <div id="p1">
-            <img class="bg i18n" src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/bgp1_chs.png">
+            <img class="bg i18n" src="bgp1_chs.png">
             <!-- <img class="i18n" src="recommend_chs.png" onload="if(navigator.userAgent.indexOf('KarDia')!=-1)this.parentNode.removeChild(this)"
                 style="width:41.39vw;position:absolute;left:3.75vw;top:24.86vw;" -->
-            <span class="tag">小埋二期版本 推荐公式已全部添加</span>
+            <span class="tag">加载速度优化，已支持电脑版</span>
                 <!-- 暂时不支持多服务器 -->
             <!-- <div style="position: absolute;left: 1.5vw;top: 30.5vw;width: 17vw;" id="server">
-                <img class="bg i18n" src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/server_chs.png">
+                <img class="bg i18n" src="server_chs.png">
             </div> -->
-            <div class="tab" style="left:19.25vw;">
-                <img class="bg i18n" src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/material_chs.png" />
+            <div class="tab" style="left:139px;">
+                <img class="bg i18n" src="material_chs.png" />
             </div>
-            <div class="tab" style="left:46.1vw;">
-                <img class="bg i18n" src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/equip_chs.png" />
+            <div class="tab" style="left:332px;">
+                <img class="bg i18n" src="equip_chs.png" />
             </div>
-            <div class="tab" style="left:72.3vw;">
-                <img class="bg i18n" src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/sim_chs.png" />
+            <div class="tab" style="left:521px;">
+                <img class="bg i18n" src="sim_chs.png" />
             </div>
-            <div id="803btn" style="left: 80vw;top: 16vw; width: 19vw;height: 11vw; position: absolute;"></div>
-            <div id="twbtn" style="right: -4vw; top: -4vw; position: absolute; display: inline-block;">
-                <img src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/international.gif" style="width: 45vw;" />
-            </div>
+            <div id="803btn" style="left: 576px;top: 114px; width: 136px;height: 80px; position: absolute;"></div>
+            <!-- <div id="twbtn" style="right: -30px; top: -30px; position: absolute; display: inline-block;">
+                <img src="international.gif" style="width: 324px;" />
+            </div> -->
         </div>
         <div class="hr"></div>
         <div class="tabd" id="materials"></div>
         <div class="tabd" id="equips"></div>
         <div class="tabd">
             <div id="p2">
-                <div style="padding-top:1.38vw;"><span class="select"><img src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/empty.png" /></span>
-                    <span class="select"><img src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/empty.png" /></span>
-                    <span class="select"><img src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/empty.png" /></span>
-                    <span class="select"><img src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/empty.png" /></span>
-                    <img src="https://cdn.jsdelivr.net/gh/KarDia-C/alchemy@2.43/toggle.png" id="toggle" onclick="toggleSelector()" />
+                <div style="padding-top:15px;"><span class="select"><img src="empty.png" /></span>
+                    <span class="select"><img src="empty.png" /></span>
+                    <span class="select"><img src="empty.png" /></span>
+                    <span class="select"><img src="empty.png" /></span>
+                    <img src="toggle.png" id="toggle" onclick="toggleSelector()" />
                 </div>
             </div>
             <div class="hr"></div>
@@ -115,8 +100,16 @@
             </div>
         </div>
     </div>
-    <div id="803" style="position: absolute; width: 80vw; left: 6vw; top: 10vw; background: rgba(255,255,255,.8); z-index: 803; border-radius: 8vw; box-shadow: 10px 10px 5px rgba(0,0,0,.5); padding: 4vw; font-size: 4vw; opacity: 0; display: none;"></div>
-    <div id="international" style="position: absolute; width: 82vw; left: 6vw; top: 10vw; background: rgba(255,255,255,.8); z-index: 803; border-radius: 8vw; box-shadow: 10px 10px 5px rgba(0,0,0,.5); padding: 3vw; font-size: 4vw; opacity: 0; display: none;"></div>
+    <div id="803" style="position: absolute; width: 560px; left: 48px; top: 72px; background: rgba(255,255,255,.8); z-index: 803; border-radius: 60px; box-shadow: 10px 10px 5px rgba(0,0,0,.5); padding: 32px; font-size: 28px; opacity: 0; display: none;"></div>
+    <!-- <div id="international" style="position: absolute; width: 82vw; left: 6vw; top: 10vw; background: rgba(255,255,255,.8); z-index: 803; border-radius: 8vw; box-shadow: 10px 10px 5px rgba(0,0,0,.5); padding: 3vw; font-size: 4vw; opacity: 0; display: none;"></div> -->
 </body>
-
+<script>
+(function() {
+    function onresize() {
+        document.querySelector('meta[name=viewport]').content = 'width=720, initial-scale=' + (outerWidth / 720) + ', user-scalable=no';
+    }
+    window.addEventListener('resize', onresize);
+    onresize();
+})();
+</script>
 </html>

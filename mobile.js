@@ -1,19 +1,19 @@
 "use strict"
 
-function resetLayout() {
-	if (window.innerWidth > document.body.clientWidth) {
-		var d = window.innerWidth - document.body.clientWidth
-		$("#result").css("width", "calc(60vw - "+(d*.6)+"px)")
-		$("#sc .item").css("width", "16vw")
-		$("#sc .item").css("height", "16.512vw")
-	} else {
-		$("#result").css("width", "60vw")
-		$("#sc .item").css("width", "18vw")
-		$("#sc .item").css("height", "18.4vw")
-	}
-}
-window.addEventListener("resize", resetLayout)
-$(resetLayout)
+// function resetLayout() {
+// 	if (window.innerWidth > document.body.clientWidth) {
+// 		var d = window.innerWidth - document.body.clientWidth
+// 		$("#result").css("width", "calc(60vw - "+(d*.6)+"px)")
+// 		$("#sc .item").css("width", "16vw")
+// 		$("#sc .item").css("height", "16.512vw")
+// 	} else {
+// 		$("#result").css("width", "60vw")
+// 		$("#sc .item").css("width", "18vw")
+// 		$("#sc .item").css("height", "18.4vw")
+// 	}
+// }
+// window.addEventListener("resize", resetLayout)
+// $(resetLayout)
 
 var selected = []
 var showing = false
@@ -90,7 +90,7 @@ function setResult(result) {
 	table.innerHTML = ""
 	for (var i = 0; i < result.length; ++i) table.appendChild(getResultTRNode(result[i]))
 	var state = $("#state")[0]
-	var statestr = getString("time") + "：" + result.hour + "h<br/>" + getString("cost") + "：<img src=\"gold.png\" id=\"gold\" />" + result.gold + "<hr/>"
+	var statestr = getString("time") + "：" + result.hour + "h<br/>" + getString("cost") + "：<img src=\"gold.png\" class=\"gold\" />" + result.gold + "<hr/>"
 	for (var i = 0; i < ingredientNames[lang].length; ++i) if (result.ingredients[i] != 0) {
 		statestr += ingredientNames[lang][i] + "x" + result.ingredients[i] + "<br/>"
 	}
@@ -164,7 +164,7 @@ function genTables() {
 		var img = tr[0].insertCell()
 		img.appendChild(materials[i].getImgNode())
 		img.innerHTML += "<br>" + materials[i].name[lang]
-		if (materials[i].name[lang].length > 6) img.style.fontSize = "3vw"
+		if (materials[i].name[lang].length > 6) img.style.fontSize = "20px"
 		img.rowSpan = rowCount
 		for (j = 0; j < ingredientNames[lang].length || j % colCount != 0; ++j) tr[parseInt(j / colCount)].innerHTML += "<td>" + (j < ingredientNames[lang].length ? materials[i].ingredients[j] : '') + "</td>"
 		tr[0].innerHTML += "<td rowspan='" + rowCount + "'><div class='source'>" + materials[i].sources[lang].replace(/\n/g, "<br>") + "</div></td>"
