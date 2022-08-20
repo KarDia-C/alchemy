@@ -216,7 +216,7 @@ function genTables() {
 		img = tr.insertCell()
 		img.appendChild(equips[i].getImgNode())
 		img.innerHTML += "<br>" + equips[i].name[lang]
-		if (equips[i].name[lang].length > 6) img.style.fontSize = "3vw"
+		if (equips[i].name[lang].length > 6) img.style.fontSize = "22px"
 		tr.innerHTML += "<td>" + equips[i].getDetailDesc().replace(/\n/g, "<br>") + "</td><td>" + posNames[lang][equips[i].position - 1] + "</td>"
 		var recommend = document.createElement("td")
 		tr.appendChild(recommend)

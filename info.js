@@ -33,7 +33,7 @@ function showInfo(position, title, detail) {
 	infodiv.appendChild(details)
 	infodiv.style.display = "inline-block"
 	infodiv.style.left = (position.pageX - infodiv.clientWidth / 2) + "px"
-	infodiv.style.top = (position.pageY - infodiv.clientHeight - document.body.clientWidth * .15) + "px"
+	infodiv.style.top = (position.pageY - infodiv.clientHeight - 50) + "px"
 }
 
 function hideInfo() {
