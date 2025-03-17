@@ -8181,17 +8181,6 @@
  },
  {
   "alchemy": false,
-  "attribs": [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
-  "available": ["chs"],
-  "floating": false,
-  "name": {"chs": "[装扮]魔物娘の餐桌"},
-  "position": 4,
-  "rarity": 5,
-  "type": "60305",
-  "weight": 5
- },
- {
-  "alchemy": false,
   "attribs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [3, 2], [0, 2], 0, 0],
   "available": ["chs"],
   "floating": true,
@@ -8639,17 +8628,6 @@
   "position": 4,
   "rarity": 1,
   "type": "60346",
-  "weight": 5
- },
- {
-  "alchemy": false,
-  "attribs": [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
-  "available": ["chs"],
-  "floating": false,
-  "name": {"chs": "[装扮]最佳员工"},
-  "position": 4,
-  "rarity": 5,
-  "type": "60347",
   "weight": 5
  },
  {
@@ -11170,4 +11148,4 @@
   "rarity": 1,
   "type": "60578",
   "weight": 5
- }
+ }]
