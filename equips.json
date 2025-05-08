@@ -10913,17 +10913,6 @@
   "attribs": [0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
   "available": ["chs"],
   "floating": false,
-  "name": {"chs": "[装扮]收纳卡册"},
-  "position": 5,
-  "rarity": 5,
-  "type": "60550",
-  "weight": 5
- },
- {
-  "alchemy": false,
-  "attribs": [0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
-  "available": ["chs"],
-  "floating": false,
   "name": {"chs": "[装扮]透明痛包"},
   "position": 5,
   "rarity": 5,
@@ -11027,17 +11016,6 @@
   "position": 4,
   "rarity": 1,
   "type": "60560",
-  "weight": 5
- },
- {
-  "alchemy": false,
-  "attribs": [0, 0, 150, 0, 0, 0, 0, 0, 0, 0, 0, 0, [0, 0], [0, 0], [0, 2], [0, 2], [0, 2], [0, 2], 0, 0],
-  "available": ["chs"],
-  "floating": false,
-  "name": {"chs": "[装扮]化作星座"},
-  "position": 5,
-  "rarity": 5,
-  "type": "60561",
   "weight": 5
  },
  {
